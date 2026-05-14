@@ -1,0 +1,711 @@
+[
+  {
+    "id": "FB-0001",
+    "store_id": "STR-006",
+    "rule_id": "RULE-04",
+    "action_id": "reassign_senior_to_peak",
+    "decision": "accept",
+    "timestamp": "2026-05-07 13:40:43",
+    "snapshot_before": {
+      "date": "2026-05-07",
+      "store_id": "STR-006",
+      "target": 38000000,
+      "revenue": 44468000,
+      "target_pct": 1.1702105263157894,
+      "traffic": 90,
+      "num_transactions": 21,
+      "conversion_rate": 0.23333333333333334,
+      "aov": 2117523.8095238097,
+      "category_revenue": {
+        "earring": 14313000,
+        "necklace": 18698000,
+        "fashion_ring": 7964000,
+        "bracelet": 2733000,
+        "accessory": 760000
+      },
+      "customer_type_count": {
+        "female_solo": 10,
+        "male_solo": 3,
+        "family": 4,
+        "gift_buyer": 2,
+        "couple": 2
+      },
+      "shift_revenue": {
+        "morning": 13113000,
+        "afternoon": 29905000,
+        "evening": 1450000
+      },
+      "shift_traffic": {
+        "morning": 30,
+        "afternoon": 51,
+        "evening": 9
+      },
+      "staff_performance": {
+        "NV028": {
+          "revenue": 24533000,
+          "orders": 12,
+          "name": "Võ Minh Phúc"
+        },
+        "NV029": {
+          "revenue": 18485000,
+          "orders": 8,
+          "name": "Lê Thị Thanh Hà"
+        },
+        "NV027": {
+          "revenue": 1450000,
+          "orders": 1,
+          "name": "Trần Thị Yến Nhi"
+        }
+      },
+      "morning_staff": [
+        "NV028",
+        "NV029"
+      ],
+      "afternoon_staff": [
+        "NV028",
+        "NV029"
+      ],
+      "evening_staff": [
+        "NV027"
+      ],
+      "day_of_week": "Thursday",
+      "day_of_week_vn": "Thứ Năm",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true
+    },
+    "outcome": null
+  },
+  {
+    "id": "FB-0002",
+    "store_id": "STR-002",
+    "rule_id": "RULE-01",
+    "action_id": "focus_wedding_sku",
+    "decision": "accept",
+    "timestamp": "2026-05-07 14:46:13",
+    "snapshot_before": {
+      "date": "2026-05-07",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 110601000,
+      "target_pct": 1.2021847826086955,
+      "traffic": 64,
+      "num_transactions": 23,
+      "conversion_rate": 0.359375,
+      "aov": 4808739.130434782,
+      "category_revenue": {
+        "wedding_ring": 32054000,
+        "earring": 3778000,
+        "engagement_ring": 13617000,
+        "necklace": 10913000,
+        "bracelet": 37298000,
+        "fashion_ring": 12563000,
+        "accessory": 378000
+      },
+      "customer_type_count": {
+        "couple": 10,
+        "gift_buyer": 5,
+        "male_solo": 4,
+        "family": 3,
+        "female_solo": 1
+      },
+      "shift_revenue": {
+        "morning": 110601000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV003": {
+          "revenue": 50742000,
+          "orders": 11,
+          "name": "Nguyễn Phương Thảo"
+        },
+        "NV001": {
+          "revenue": 59859000,
+          "orders": 12,
+          "name": "Trần Thị Bảo Ngọc"
+        }
+      },
+      "morning_staff": [
+        "NV001",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV002",
+        "NV003",
+        "NV004"
+      ],
+      "evening_staff": [
+        "NV007",
+        "NV004"
+      ],
+      "day_of_week": "Thursday",
+      "day_of_week_vn": "Thứ Năm",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0003",
+    "store_id": "STR-002",
+    "rule_id": "RULE-05",
+    "action_id": "focus_high_margin_sku",
+    "decision": "accept",
+    "timestamp": "2026-05-07 14:46:14",
+    "snapshot_before": {
+      "date": "2026-05-07",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 110601000,
+      "target_pct": 1.2021847826086955,
+      "traffic": 64,
+      "num_transactions": 23,
+      "conversion_rate": 0.359375,
+      "aov": 4808739.130434782,
+      "category_revenue": {
+        "wedding_ring": 32054000,
+        "earring": 3778000,
+        "engagement_ring": 13617000,
+        "necklace": 10913000,
+        "bracelet": 37298000,
+        "fashion_ring": 12563000,
+        "accessory": 378000
+      },
+      "customer_type_count": {
+        "couple": 10,
+        "gift_buyer": 5,
+        "male_solo": 4,
+        "family": 3,
+        "female_solo": 1
+      },
+      "shift_revenue": {
+        "morning": 110601000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV003": {
+          "revenue": 50742000,
+          "orders": 11,
+          "name": "Nguyễn Phương Thảo"
+        },
+        "NV001": {
+          "revenue": 59859000,
+          "orders": 12,
+          "name": "Trần Thị Bảo Ngọc"
+        }
+      },
+      "morning_staff": [
+        "NV001",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV002",
+        "NV003",
+        "NV004"
+      ],
+      "evening_staff": [
+        "NV007",
+        "NV004"
+      ],
+      "day_of_week": "Thursday",
+      "day_of_week_vn": "Thứ Năm",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0004",
+    "store_id": "STR-002",
+    "rule_id": "RULE-03",
+    "action_id": "alert_manager",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:14:55",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0005",
+    "store_id": "STR-002",
+    "rule_id": "RULE-09",
+    "action_id": "urgent_alert",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:15:18",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0006",
+    "store_id": "STR-002",
+    "rule_id": "RULE-03",
+    "action_id": "alert_manager",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:16:26",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0007",
+    "store_id": "STR-002",
+    "rule_id": "RULE-09",
+    "action_id": "urgent_alert",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:16:30",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0008",
+    "store_id": "STR-002",
+    "rule_id": "RULE-05",
+    "action_id": "focus_high_margin_sku",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:16:31",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "positive"
+  },
+  {
+    "id": "FB-0009",
+    "store_id": "STR-002",
+    "rule_id": "RULE-12",
+    "action_id": "change_sales_pitch_self_reward",
+    "decision": "accept",
+    "timestamp": "2026-05-12 13:16:32",
+    "snapshot_before": {
+      "date": "2026-05-12",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 1676000,
+      "target_pct": 0.018217391304347828,
+      "traffic": 9,
+      "num_transactions": 3,
+      "conversion_rate": 0.3333333333333333,
+      "aov": 558666.6666666666,
+      "category_revenue": {
+        "earring": 1328000,
+        "accessory": 348000
+      },
+      "customer_type_count": {
+        "female_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 1676000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV002": {
+          "revenue": 1676000,
+          "orders": 3,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Tuesday",
+      "day_of_week_vn": "Thứ Ba",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": "negative"
+  },
+  {
+    "id": "FB-0010",
+    "store_id": "STR-002",
+    "rule_id": "RULE-09",
+    "action_id": "urgent_alert",
+    "decision": "accept",
+    "timestamp": "2026-05-14 14:20:42",
+    "snapshot_before": {
+      "date": "2026-05-14",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 20711000,
+      "target_pct": 0.2251195652173913,
+      "traffic": 63,
+      "num_transactions": 17,
+      "conversion_rate": 0.2698412698412698,
+      "aov": 1218294.1176470588,
+      "category_revenue": {
+        "accessory": 3616000,
+        "watch": 17095000
+      },
+      "customer_type_count": {
+        "family": 3,
+        "female_solo": 9,
+        "couple": 2,
+        "male_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 20711000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV003": {
+          "revenue": 6835000,
+          "orders": 6,
+          "name": "Nguyễn Phương Thảo"
+        },
+        "NV002": {
+          "revenue": 13876000,
+          "orders": 11,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Thursday",
+      "day_of_week_vn": "Thứ Năm",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": null
+  },
+  {
+    "id": "FB-0011",
+    "store_id": "STR-002",
+    "rule_id": "RULE-12",
+    "action_id": "change_sales_pitch_self_reward",
+    "decision": "skip",
+    "timestamp": "2026-05-14 14:21:42",
+    "snapshot_before": {
+      "date": "2026-05-14",
+      "store_id": "STR-002",
+      "target": 92000000,
+      "revenue": 20711000,
+      "target_pct": 0.2251195652173913,
+      "traffic": 63,
+      "num_transactions": 17,
+      "conversion_rate": 0.2698412698412698,
+      "aov": 1218294.1176470588,
+      "category_revenue": {
+        "accessory": 3616000,
+        "watch": 17095000
+      },
+      "customer_type_count": {
+        "family": 3,
+        "female_solo": 9,
+        "couple": 2,
+        "male_solo": 2,
+        "gift_buyer": 1
+      },
+      "shift_revenue": {
+        "morning": 20711000,
+        "afternoon": 0,
+        "evening": 0
+      },
+      "staff_performance": {
+        "NV003": {
+          "revenue": 6835000,
+          "orders": 6,
+          "name": "Nguyễn Phương Thảo"
+        },
+        "NV002": {
+          "revenue": 13876000,
+          "orders": 11,
+          "name": "Lê Hoàng Minh Khôi"
+        }
+      },
+      "morning_staff": [
+        "NV002",
+        "NV003"
+      ],
+      "afternoon_staff": [
+        "NV001",
+        "NV007",
+        "NV003"
+      ],
+      "evening_staff": [
+        "NV004",
+        "NV005"
+      ],
+      "day_of_week": "Thursday",
+      "day_of_week_vn": "Thứ Năm",
+      "is_special_day": false,
+      "special_day_multiplier": 1.0,
+      "simulated": true,
+      "is_partial_day": true
+    },
+    "outcome": null
+  }
+]

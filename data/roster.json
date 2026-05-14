@@ -1,0 +1,5841 @@
+[
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV012",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV009",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV010",
+      "NV013",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV015",
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV021",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV025",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV023",
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV023",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-05",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-04",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-03",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-02",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-01",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-30",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-29",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-28",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-27",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-26",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-25",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-24",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-23",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-22",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-21",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-20",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-19",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-18",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-17",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-16",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-15",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-14",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-13",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-12",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-11",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-10",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-09",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-08",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-07",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-06",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV035",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-04-05",
+    "store_id": "STR-008",
+    "morning_staff": [
+      "NV033",
+      "NV034",
+      "NV035"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV033",
+      "NV036"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV027",
+      "NV028",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-006",
+    "morning_staff": [
+      "NV028",
+      "NV029"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV028",
+      "NV029"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV027"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV021",
+      "NV020",
+      "NV022"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV019"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-004",
+    "morning_staff": [
+      "NV020",
+      "NV021"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV019",
+      "NV020",
+      "NV021"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV022"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV032",
+      "NV031"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV030"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-007",
+    "morning_staff": [
+      "NV031",
+      "NV032"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV030",
+      "NV031",
+      "NV032"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV026",
+      "NV025",
+      "NV024"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV023"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-005",
+    "morning_staff": [
+      "NV024",
+      "NV025"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV025",
+      "NV024",
+      "NV026"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV023"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-08",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-09",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-10",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-11",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV013",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009",
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV011",
+      "NV014",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009",
+      "NV012"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-08",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV009",
+      "NV013",
+      "NV012"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-09",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV012",
+      "NV013",
+      "NV014",
+      "NV011"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-10",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV009",
+      "NV013",
+      "NV014",
+      "NV011"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-11",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV013",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009",
+      "NV014"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-12",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV009",
+      "NV014",
+      "NV013"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV012"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-12",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-13",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-14",
+    "store_id": "STR-002",
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-06",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV016",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-07",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV017",
+      "NV016"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV018"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-08",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV018",
+      "NV017",
+      "NV016"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV015"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-09",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017",
+      "NV018"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV017",
+      "NV018",
+      "NV016"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV015"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-10",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017",
+      "NV018"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV016",
+      "NV018",
+      "NV017"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-11",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV016",
+      "NV018"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-12",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV018",
+      "NV017",
+      "NV016"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV015"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-13",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV015",
+      "NV018",
+      "NV017"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-14",
+    "store_id": "STR-003",
+    "morning_staff": [
+      "NV016",
+      "NV017"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV016",
+      "NV018",
+      "NV017"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV015"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-13",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV014",
+      "NV013",
+      "NV012"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  },
+  {
+    "date": "2026-05-14",
+    "store_id": "STR-001",
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "morning_start": "09:00",
+    "morning_end": "14:00",
+    "afternoon_staff": [
+      "NV013",
+      "NV012",
+      "NV014"
+    ],
+    "afternoon_start": "14:00",
+    "afternoon_end": "20:00",
+    "evening_staff": [
+      "NV009"
+    ],
+    "evening_start": "20:00",
+    "evening_end": "22:00"
+  }
+]

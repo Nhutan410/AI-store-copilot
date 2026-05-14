@@ -1,0 +1,152 @@
+[
+  {
+    "id": "focus_wedding_sku",
+    "name": "Tập trung tư vấn SKU nhẫn cưới CVR cao",
+    "type": "product",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "focus_high_margin_sku",
+    "name": "Ưu tiên đẩy SKU biên lợi nhuận cao",
+    "type": "product",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "focus_mid_price_sku",
+    "name": "Focus sản phẩm tầm trung 3–8 triệu",
+    "type": "product",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "feature_slow_moving_sku",
+    "name": "Trưng bày nổi bật SKU tồn chậm",
+    "type": "product",
+    "urgency": "LOW"
+  },
+  {
+    "id": "feature_trending_fashion_sku",
+    "name": "Nổi bật SKU nhẫn thời trang trending",
+    "type": "product",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "suggest_display_change",
+    "name": "Đề xuất đổi vị trí trưng bày",
+    "type": "product",
+    "urgency": "LOW"
+  },
+  {
+    "id": "add_strong_staff_to_peak",
+    "name": "Bổ sung NV mạnh vào ca cao điểm",
+    "type": "staff",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "reassign_senior_to_peak",
+    "name": "Điều chuyển senior vào giờ 17h–20h",
+    "type": "staff",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "reassign_best_staff",
+    "name": "Điều chuyển NV tốt nhất vào ca chốt",
+    "type": "staff",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "reassign_staff_strong_category",
+    "name": "Phân NV mạnh đúng nhóm khách",
+    "type": "staff",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "pair_junior_with_senior",
+    "name": "Ghép NV mới với NV giỏi",
+    "type": "staff",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "buddy_system_coaching",
+    "name": "Kích hoạt mentor–mentee trong ca",
+    "type": "staff",
+    "urgency": "LOW"
+  },
+  {
+    "id": "suggest_mini_activation",
+    "name": "Kích hoạt mini campaign tại chỗ",
+    "type": "ops",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "activate_closing_push",
+    "name": "Push mạnh trong 2–3h cuối ngày",
+    "type": "ops",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "urgent_alert",
+    "name": "Cảnh báo khẩn cho CHT",
+    "type": "ops",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "activate_social_sharing_incentive",
+    "name": "Khuyến khích khách check-in/share",
+    "type": "ops",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "suggest_installment_option",
+    "name": "Gợi ý trả góp 0% cho khách",
+    "type": "ops",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "alert_manager",
+    "name": "Gửi alert ngay cho CHT",
+    "type": "ops",
+    "urgency": "HIGH"
+  },
+  {
+    "id": "review_staff_allocation",
+    "name": "Xem xét lại phân bổ nhân sự",
+    "type": "ops",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "change_sales_pitch",
+    "name": "Điều chỉnh cách tiếp cận khách",
+    "type": "selling",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "change_sales_pitch_self_reward",
+    "name": "Dùng pitch 'tự thưởng cho bản thân'",
+    "type": "selling",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "simplify_choice_set",
+    "name": "Giảm số lựa chọn khi tư vấn (≤3 mẫu)",
+    "type": "selling",
+    "urgency": "MEDIUM"
+  },
+  {
+    "id": "focus_emotional_selling",
+    "name": "Khai thác cảm xúc/câu chuyện khi bán",
+    "type": "selling",
+    "urgency": "LOW"
+  },
+  {
+    "id": "coach_upsell_technique",
+    "name": "Coach NV kỹ năng upsell",
+    "type": "selling",
+    "urgency": "LOW"
+  },
+  {
+    "id": "suggest_proactive_greeting",
+    "name": "Chủ động chào hỏi từ lối vào",
+    "type": "selling",
+    "urgency": "LOW"
+  }
+]

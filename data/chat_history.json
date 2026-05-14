@@ -1,0 +1,78 @@
+{
+  "STR-004": [
+    {
+      "role": "user",
+      "content": "Hôm qua sản phẩm nào được bán nhiều nhất và bán nhiều được tổng bao nhiêu tiền",
+      "timestamp": "2026-05-07 15:24:58"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm qua, sản phẩm được bán nhiều nhất là nhẫn cưới với doanh thu đạt 24.9 triệu đồng.",
+      "timestamp": "2026-05-07 15:25:00"
+    }
+  ],
+  "STR-002": [
+    {
+      "role": "user",
+      "content": "Vì sao hôm qua nhẫn cưới bán chậm?",
+      "timestamp": "2026-05-07 14:54:12"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm qua, doanh số nhẫn cưới bán chậm có thể do một số nguyên nhân như lượng khách hàng đến cửa hàng ít hơn so với mong đợi, hoặc các sản phẩm nhẫn đính hôn và bông tai đang thu hút nhiều sự chú ý từ khách hàng hơn. Để cải thiện tình hình, chúng ta có thể tập trung giới thiệu mạnh mẽ hơn về các mẫu nhẫn cưới mới hoặc áp dụng các chiến lược khuyến mãi hấp dẫn cho loại sản phẩm này trong thời gian tới.",
+      "timestamp": "2026-05-07 14:54:17"
+    },
+    {
+      "role": "user",
+      "content": "Nhóm khách nữ độc thân đang chiếm bao nhiêu %?",
+      "timestamp": "2026-05-12 13:57:46"
+    },
+    {
+      "role": "assistant",
+      "content": "Nhóm khách nữ độc thân đang chiếm 36% tổng số lượt khách.",
+      "timestamp": "2026-05-12 13:57:48"
+    },
+    {
+      "role": "user",
+      "content": "Nhân viên nào hiệu quả nhất hôm qua?",
+      "timestamp": "2026-05-14 14:30:49"
+    },
+    {
+      "role": "assistant",
+      "content": "Nhân viên Nguyễn Phương Thảo là nhân viên hiệu quả nhất hôm qua với doanh thu đạt 34.4 triệu đồng từ 8 đơn hàng.",
+      "timestamp": "2026-05-14 14:30:52"
+    },
+    {
+      "role": "user",
+      "content": "Hôm nay nên focus vào SKU nào?",
+      "timestamp": "2026-05-14 15:44:11"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm nay, chúng ta nên tập trung vào các SKU có doanh thu cao và có khả năng tăng trưởng trong thời gian còn lại của ngày. Cụ thể, nên chú trọng vào:\n\n1. **Nhẫn đính hôn**: Đây là sản phẩm có doanh thu cao nhất (23.8 triệu đồng, chiếm 32.7% tổng doanh thu). Chúng ta có thể tạo ra các chương trình khuyến mãi hoặc trưng bày nổi bật để thu hút khách hàng.\n\n2. **Dây chuyền**: Sản phẩm này cũng có doanh thu đáng kể (20.9 triệu đồng, chiếm 28.7% tổng doanh thu). Có thể giới thiệu các mẫu mới hoặc các ưu đãi đặc biệt.\n\n3. **Bông tai**: Với doanh thu 14.2 triệu đồng (19.4% tổng doanh thu), đây cũng là một sản phẩm nên được chú ý, đặc biệt là với nhóm khách nữ độc thân.\n\nNgoài ra, cần lưu ý đến việc khuyến khích khách hàng mua trả góp do AOV hiện tại thấp. Điều này có thể giúp tăng giá trị đơn hàng và cải thiện doanh thu cuối ngày.",
+      "timestamp": "2026-05-14 15:44:17"
+    }
+  ],
+  "STR-006": [
+    {
+      "role": "user",
+      "content": "Nhân viên nào hiệu quả nhất hôm qua?",
+      "timestamp": "2026-05-07 14:09:19"
+    },
+    {
+      "role": "assistant",
+      "content": "Nhân viên hiệu quả nhất hôm qua là Trần Thị Yến Nhi với doanh thu đạt 19.4 triệu đồng từ 10 đơn hàng.",
+      "timestamp": "2026-05-07 14:09:22"
+    },
+    {
+      "role": "user",
+      "content": "Hôm nay nên focus vào SKU nào?",
+      "timestamp": "2026-05-07 14:09:29"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm nay nên tập trung vàoSKU của dây chuyền với doanh thu đạt 35.8% và tiềm năng cao cho EOD, đồng thời cũng chú ý đến nhẫn cưới, SKU có tỷ lệ chuyển đổi tốt nhưng chưa đạt ngưỡng mong muốn. Ngoài ra, việc gợi ý trả góp cũng là một chiến lược hữu ích để tăng AOV trong bối cảnh cuối tháng.",
+      "timestamp": "2026-05-07 14:09:31"
+    }
+  ]
+}

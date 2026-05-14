@@ -1,0 +1,98 @@
+[
+  {
+    "id": "STR-001",
+    "name": "PNJ Vincom Center Bà Triệu",
+    "city": "Hà Nội",
+    "segment": "A",
+    "daily_target": 85000000,
+    "location": "Tầng 1, gần lối vào chính",
+    "area_sqm": 85,
+    "num_counters": 6,
+    "customer_profile": "Cặp đôi trẻ, khách văn phòng cao cấp",
+    "opened": "2018-03-15"
+  },
+  {
+    "id": "STR-002",
+    "name": "PNJ Parkson Cantavil",
+    "city": "TP.HCM",
+    "segment": "A",
+    "daily_target": 92000000,
+    "location": "Tầng 2, trung tâm khu mua sắm",
+    "area_sqm": 95,
+    "num_counters": 7,
+    "customer_profile": "Cặp đôi, nữ độc thân trẻ, gia đình",
+    "opened": "2017-09-20"
+  },
+  {
+    "id": "STR-003",
+    "name": "PNJ Lotte Mart Gò Vấp",
+    "city": "TP.HCM",
+    "segment": "B",
+    "daily_target": 58000000,
+    "location": "Tầng G, gần siêu thị",
+    "area_sqm": 65,
+    "num_counters": 4,
+    "customer_profile": "Gia đình, nữ độc thân, người mua quà",
+    "opened": "2019-05-10"
+  },
+  {
+    "id": "STR-004",
+    "name": "PNJ Aeon Mall Tân Phú",
+    "city": "TP.HCM",
+    "segment": "B",
+    "daily_target": 63000000,
+    "location": "Tầng 1, khu thời trang",
+    "area_sqm": 70,
+    "num_counters": 5,
+    "customer_profile": "Gia đình trẻ, cặp đôi, học sinh sinh viên",
+    "opened": "2020-01-08"
+  },
+  {
+    "id": "STR-005",
+    "name": "PNJ Vincom Plaza Nha Trang",
+    "city": "Nha Trang",
+    "segment": "B",
+    "daily_target": 51000000,
+    "location": "Tầng 1, cạnh cửa hàng thời trang",
+    "area_sqm": 58,
+    "num_counters": 4,
+    "customer_profile": "Du khách, cặp đôi, khách địa phương",
+    "opened": "2020-08-12"
+  },
+  {
+    "id": "STR-006",
+    "name": "PNJ Coopmart Đà Nẵng",
+    "city": "Đà Nẵng",
+    "segment": "C",
+    "daily_target": 38000000,
+    "location": "Tầng G, khu trang sức",
+    "area_sqm": 45,
+    "num_counters": 3,
+    "customer_profile": "Gia đình, người mua quà, khách phổ thông",
+    "opened": "2021-03-22"
+  },
+  {
+    "id": "STR-007",
+    "name": "PNJ BigC Hải Phòng",
+    "city": "Hải Phòng",
+    "segment": "C",
+    "daily_target": 34000000,
+    "location": "Tầng 1, lối vào siêu thị",
+    "area_sqm": 40,
+    "num_counters": 3,
+    "customer_profile": "Khách phổ thông, gia đình, người mua quà",
+    "opened": "2021-11-05"
+  },
+  {
+    "id": "STR-008",
+    "name": "PNJ Trung tâm Cần Thơ",
+    "city": "Cần Thơ",
+    "segment": "C",
+    "daily_target": 41000000,
+    "location": "Tầng 1, khu trung tâm",
+    "area_sqm": 50,
+    "num_counters": 3,
+    "customer_profile": "Gia đình, cặp đôi trẻ, người mua quà",
+    "opened": "2022-06-18"
+  }
+]

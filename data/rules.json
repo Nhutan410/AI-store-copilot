@@ -1,0 +1,171 @@
+[
+  {
+    "id": "RULE-01",
+    "name": "Nhẫn cưới yếu trong cao điểm",
+    "when": "wedding_revenue_pct < 0.32 AND strong_wedding_staff_in_peak < 2 AND is_afternoon_shift",
+    "then": [
+      "focus_wedding_sku",
+      "add_strong_staff_to_peak"
+    ],
+    "why": "Nhẫn cưới chiếm 40–50% doanh thu lý tưởng. Thiếu người + thiếu focus SKU đồng thời là nguyên nhân số 1 miss target.",
+    "confidence": 0.95,
+    "feedback_count": 0,
+    "positive_feedback": 0,
+    "outcome_count": 1,
+    "positive_outcomes": 1
+  },
+  {
+    "id": "RULE-02",
+    "name": "Traffic tốt, CR thấp = vấn đề tư vấn",
+    "when": "traffic_ratio >= 0.90 AND cr_ratio < 0.85",
+    "then": [
+      "change_sales_pitch",
+      "simplify_choice_set"
+    ],
+    "why": "Khách vào đủ nhưng không chốt được → không phải thiếu traffic, mà cách tư vấn chưa phù hợp với nhóm khách hiện tại.",
+    "confidence": 0.8,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-03",
+    "name": "Pace revenue chậm sau giữa ngày",
+    "when": "revenue_at_noon_pct < 0.38 AND is_midday",
+    "then": [
+      "alert_manager",
+      "suggest_mini_activation",
+      "review_staff_allocation"
+    ],
+    "why": "Nếu đến giữa ngày chỉ đạt < 38% target thì ca chiều phải chịu áp lực rất lớn. Cần can thiệp sớm.",
+    "confidence": 0.95,
+    "feedback_count": 0,
+    "positive_feedback": 0,
+    "outcome_count": 2,
+    "positive_outcomes": 2
+  },
+  {
+    "id": "RULE-04",
+    "name": "Không có senior giờ vàng",
+    "when": "senior_count_in_peak == 0 AND is_peak_hour",
+    "then": [
+      "reassign_senior_to_peak",
+      "alert_manager"
+    ],
+    "why": "Senior tạo ra 40–45% doanh thu trong giờ cao điểm. Vắng mặt toàn bộ = rủi ro mất 10–15% doanh thu ngày.",
+    "confidence": 0.9,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-05",
+    "name": "Cơ cấu SKU lệch sang margin thấp",
+    "when": "low_margin_revenue_pct > 0.55",
+    "then": [
+      "focus_high_margin_sku",
+      "coach_upsell_technique"
+    ],
+    "why": "Doanh thu nhìn đẹp nhưng lợi nhuận thực tế thấp. Cần dịch chuyển mix sang sản phẩm sinh lời tốt hơn.",
+    "confidence": 0.95,
+    "feedback_count": 0,
+    "positive_feedback": 0,
+    "outcome_count": 2,
+    "positive_outcomes": 2
+  },
+  {
+    "id": "RULE-06",
+    "name": "Nhóm khách couple cao, nhẫn cưới bán thấp",
+    "when": "couple_traffic_pct >= 0.35 AND wedding_engagement_revenue_pct < 0.40",
+    "then": [
+      "focus_wedding_sku",
+      "focus_emotional_selling",
+      "pair_junior_with_senior"
+    ],
+    "why": "Khách couple vào mà không mua nhẫn là đang bỏ cơ hội lớn. Cần senior dẫn dắt tư vấn.",
+    "confidence": 0.82,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-07",
+    "name": "Junior nhiều, Senior ít → cần ghép cặp",
+    "when": "junior_count > senior_count * 2 AND traffic > baseline_traffic",
+    "then": [
+      "pair_junior_with_senior",
+      "buddy_system_coaching"
+    ],
+    "why": "Junior nhiều hơn senior 2:1 trong giờ đông sẽ làm giảm chất lượng tư vấn.",
+    "confidence": 0.7,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-08",
+    "name": "Hàng tồn cao nhưng bán chậm",
+    "when": "slow_sku_stock >= 10 AND slow_sku_no_sale_7days AND slow_sku_cvr >= 0.40",
+    "then": [
+      "feature_slow_moving_sku",
+      "suggest_display_change"
+    ],
+    "why": "Hàng tồn cao + CVR tốt nhưng không bán → vấn đề có thể là không được trưng bày đúng chỗ.",
+    "confidence": 0.73,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-09",
+    "name": "Dự báo miss target cuối ngày",
+    "when": "revenue_at_16h_pct < 0.55",
+    "then": [
+      "urgent_alert",
+      "activate_closing_push",
+      "reassign_best_staff"
+    ],
+    "why": "Với pace này, khó đạt target ngay cả khi ca chiều tốt. Cần push mạnh nhất trong 4 giờ còn lại.",
+    "confidence": 0.95,
+    "feedback_count": 0,
+    "positive_feedback": 0,
+    "outcome_count": 2,
+    "positive_outcomes": 2
+  },
+  {
+    "id": "RULE-10",
+    "name": "Thứ 2 traffic thấp = cần kích hoạt",
+    "when": "is_monday AND morning_traffic_ratio < 0.60",
+    "then": [
+      "suggest_proactive_greeting",
+      "activate_social_sharing_incentive"
+    ],
+    "why": "Thứ 2 traffic vốn thấp. Nếu thấp hơn bình thường thứ 2 → cần tạo lý do cho khách ghé thêm.",
+    "confidence": 0.68,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-11",
+    "name": "Cuối tháng + AOV thấp → gợi ý trả góp",
+    "when": "day_of_month >= 25 AND aov < 4_000_000",
+    "then": [
+      "suggest_installment_option",
+      "focus_mid_price_sku"
+    ],
+    "why": "Cuối tháng eo tiền, khách vẫn muốn mua nhưng e ngại giá. Gợi ý trả góp 0% tăng chuyển đổi đáng kể.",
+    "confidence": 0.72,
+    "feedback_count": 0,
+    "positive_feedback": 0
+  },
+  {
+    "id": "RULE-12",
+    "name": "Khách nữ độc thân cao, nhẫn thời trang thấp",
+    "when": "female_solo_pct >= 0.40 AND fashion_ring_bracelet_pct < 0.25",
+    "then": [
+      "change_sales_pitch_self_reward",
+      "feature_trending_fashion_sku"
+    ],
+    "why": "Nhóm nữ độc thân đang là cơ hội bỏ lỡ. Chuyển pitch sang 'tự thưởng cho bản thân' tăng CR 15–20%.",
+    "confidence": 0.7,
+    "feedback_count": 0,
+    "positive_feedback": 0,
+    "outcome_count": 1,
+    "negative_outcomes": 1
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "id": "NV001",
+    "store_id": "STR-002",
+    "name": "Trần Thị Bảo Ngọc",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 5,
+    "avg_cr": 0.52,
+    "avg_daily_revenue": 18500000,
+    "phone": "0901234001"
+  },
+  {
+    "id": "NV002",
+    "store_id": "STR-002",
+    "name": "Lê Hoàng Minh Khôi",
+    "level": "senior",
+    "strong_categories": [
+      "watch",
+      "fashion_ring"
+    ],
+    "experience_years": 4,
+    "avg_cr": 0.48,
+    "avg_daily_revenue": 16200000,
+    "phone": "0901234002"
+  },
+  {
+    "id": "NV003",
+    "store_id": "STR-002",
+    "name": "Nguyễn Phương Thảo",
+    "level": "mid",
+    "strong_categories": [
+      "bracelet",
+      "necklace"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.41,
+    "avg_daily_revenue": 11800000,
+    "phone": "0901234003"
+  },
+  {
+    "id": "NV004",
+    "store_id": "STR-002",
+    "name": "Võ Thanh Tùng",
+    "level": "mid",
+    "strong_categories": [
+      "wedding_ring",
+      "earring"
+    ],
+    "experience_years": 2.5,
+    "avg_cr": 0.39,
+    "avg_daily_revenue": 12100000,
+    "phone": "0901234004"
+  },
+  {
+    "id": "NV005",
+    "store_id": "STR-002",
+    "name": "Phạm Ngọc Hân",
+    "level": "junior",
+    "strong_categories": [
+      "earring",
+      "bracelet"
+    ],
+    "experience_years": 0.67,
+    "avg_cr": 0.29,
+    "avg_daily_revenue": 7300000,
+    "phone": "0901234005"
+  },
+  {
+    "id": "NV006",
+    "store_id": "STR-002",
+    "name": "Đỗ Văn Quang",
+    "level": "junior",
+    "strong_categories": [
+      "necklace"
+    ],
+    "experience_years": 0.42,
+    "avg_cr": 0.26,
+    "avg_daily_revenue": 6800000,
+    "phone": "0901234006"
+  },
+  {
+    "id": "NV007",
+    "store_id": "STR-002",
+    "name": "Huỳnh Thị Thu Hương",
+    "level": "mid",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 3,
+    "avg_cr": 0.44,
+    "avg_daily_revenue": 13500000,
+    "phone": "0901234007"
+  },
+  {
+    "id": "NV008",
+    "store_id": "STR-002",
+    "name": "Bùi Minh Đức",
+    "level": "senior",
+    "strong_categories": [
+      "watch",
+      "fashion_ring"
+    ],
+    "experience_years": 6,
+    "avg_cr": 0.5,
+    "avg_daily_revenue": 17100000,
+    "phone": "0901234008"
+  },
+  {
+    "id": "NV009",
+    "store_id": "STR-001",
+    "name": "Phan Thị Lan Anh",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 7,
+    "avg_cr": 0.55,
+    "avg_daily_revenue": 22000000,
+    "phone": "0901234009"
+  },
+  {
+    "id": "NV010",
+    "store_id": "STR-001",
+    "name": "Hoàng Đức Việt",
+    "level": "senior",
+    "strong_categories": [
+      "watch",
+      "bracelet"
+    ],
+    "experience_years": 5,
+    "avg_cr": 0.49,
+    "avg_daily_revenue": 17800000,
+    "phone": "0901234010"
+  },
+  {
+    "id": "NV011",
+    "store_id": "STR-001",
+    "name": "Trịnh Thị Mai Linh",
+    "level": "mid",
+    "strong_categories": [
+      "necklace",
+      "earring"
+    ],
+    "experience_years": 3,
+    "avg_cr": 0.43,
+    "avg_daily_revenue": 13200000,
+    "phone": "0901234011"
+  },
+  {
+    "id": "NV012",
+    "store_id": "STR-001",
+    "name": "Ngô Văn Hải",
+    "level": "mid",
+    "strong_categories": [
+      "fashion_ring"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.37,
+    "avg_daily_revenue": 10900000,
+    "phone": "0901234012"
+  },
+  {
+    "id": "NV013",
+    "store_id": "STR-001",
+    "name": "Đinh Thị Quỳnh Như",
+    "level": "junior",
+    "strong_categories": [
+      "earring"
+    ],
+    "experience_years": 0.5,
+    "avg_cr": 0.27,
+    "avg_daily_revenue": 6500000,
+    "phone": "0901234013"
+  },
+  {
+    "id": "NV014",
+    "store_id": "STR-001",
+    "name": "Lý Thành Đạt",
+    "level": "mid",
+    "strong_categories": [
+      "wedding_ring",
+      "bracelet"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.4,
+    "avg_daily_revenue": 11600000,
+    "phone": "0901234014"
+  },
+  {
+    "id": "NV015",
+    "store_id": "STR-003",
+    "name": "Cao Thị Mỹ Dung",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring"
+    ],
+    "experience_years": 4,
+    "avg_cr": 0.47,
+    "avg_daily_revenue": 14200000,
+    "phone": "0901234015"
+  },
+  {
+    "id": "NV016",
+    "store_id": "STR-003",
+    "name": "Đặng Văn Phú",
+    "level": "mid",
+    "strong_categories": [
+      "necklace",
+      "earring"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.38,
+    "avg_daily_revenue": 10100000,
+    "phone": "0901234016"
+  },
+  {
+    "id": "NV017",
+    "store_id": "STR-003",
+    "name": "Trương Thị Kiều Oanh",
+    "level": "junior",
+    "strong_categories": [
+      "bracelet"
+    ],
+    "experience_years": 0.58,
+    "avg_cr": 0.28,
+    "avg_daily_revenue": 6200000,
+    "phone": "0901234017"
+  },
+  {
+    "id": "NV018",
+    "store_id": "STR-003",
+    "name": "Võ Anh Khoa",
+    "level": "mid",
+    "strong_categories": [
+      "fashion_ring"
+    ],
+    "experience_years": 1.5,
+    "avg_cr": 0.35,
+    "avg_daily_revenue": 9800000,
+    "phone": "0901234018"
+  },
+  {
+    "id": "NV019",
+    "store_id": "STR-004",
+    "name": "Lê Thị Hồng Nhung",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 5,
+    "avg_cr": 0.46,
+    "avg_daily_revenue": 15500000,
+    "phone": "0901234019"
+  },
+  {
+    "id": "NV020",
+    "store_id": "STR-004",
+    "name": "Nguyễn Văn Thắng",
+    "level": "mid",
+    "strong_categories": [
+      "bracelet",
+      "necklace"
+    ],
+    "experience_years": 2.5,
+    "avg_cr": 0.4,
+    "avg_daily_revenue": 11200000,
+    "phone": "0901234020"
+  },
+  {
+    "id": "NV021",
+    "store_id": "STR-004",
+    "name": "Trần Thị Cẩm Ly",
+    "level": "junior",
+    "strong_categories": [
+      "earring"
+    ],
+    "experience_years": 0.75,
+    "avg_cr": 0.3,
+    "avg_daily_revenue": 7100000,
+    "phone": "0901234021"
+  },
+  {
+    "id": "NV022",
+    "store_id": "STR-004",
+    "name": "Phạm Tuấn Anh",
+    "level": "mid",
+    "strong_categories": [
+      "fashion_ring",
+      "watch"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.36,
+    "avg_daily_revenue": 10300000,
+    "phone": "0901234022"
+  },
+  {
+    "id": "NV023",
+    "store_id": "STR-005",
+    "name": "Dương Thị Mộng Trinh",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "necklace"
+    ],
+    "experience_years": 4.5,
+    "avg_cr": 0.45,
+    "avg_daily_revenue": 13800000,
+    "phone": "0901234023"
+  },
+  {
+    "id": "NV024",
+    "store_id": "STR-005",
+    "name": "Lâm Quốc Huy",
+    "level": "mid",
+    "strong_categories": [
+      "bracelet",
+      "earring"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.38,
+    "avg_daily_revenue": 9600000,
+    "phone": "0901234024"
+  },
+  {
+    "id": "NV025",
+    "store_id": "STR-005",
+    "name": "Nguyễn Thị Bích Trâm",
+    "level": "junior",
+    "strong_categories": [
+      "fashion_ring"
+    ],
+    "experience_years": 0.83,
+    "avg_cr": 0.29,
+    "avg_daily_revenue": 6800000,
+    "phone": "0901234025"
+  },
+  {
+    "id": "NV026",
+    "store_id": "STR-005",
+    "name": "Huỳnh Thanh Bình",
+    "level": "mid",
+    "strong_categories": [
+      "necklace",
+      "earring"
+    ],
+    "experience_years": 1.5,
+    "avg_cr": 0.36,
+    "avg_daily_revenue": 8900000,
+    "phone": "0901234026"
+  },
+  {
+    "id": "NV027",
+    "store_id": "STR-006",
+    "name": "Trần Thị Yến Nhi",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 4,
+    "avg_cr": 0.44,
+    "avg_daily_revenue": 11200000,
+    "phone": "0901234027"
+  },
+  {
+    "id": "NV028",
+    "store_id": "STR-006",
+    "name": "Võ Minh Phúc",
+    "level": "mid",
+    "strong_categories": [
+      "bracelet",
+      "fashion_ring"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.37,
+    "avg_daily_revenue": 8600000,
+    "phone": "0901234028"
+  },
+  {
+    "id": "NV029",
+    "store_id": "STR-006",
+    "name": "Lê Thị Thanh Hà",
+    "level": "junior",
+    "strong_categories": [
+      "earring"
+    ],
+    "experience_years": 0.5,
+    "avg_cr": 0.26,
+    "avg_daily_revenue": 5200000,
+    "phone": "0901234029"
+  },
+  {
+    "id": "NV030",
+    "store_id": "STR-007",
+    "name": "Nguyễn Thị Lan Phương",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "bracelet"
+    ],
+    "experience_years": 3.5,
+    "avg_cr": 0.43,
+    "avg_daily_revenue": 10100000,
+    "phone": "0901234030"
+  },
+  {
+    "id": "NV031",
+    "store_id": "STR-007",
+    "name": "Đoàn Văn Long",
+    "level": "mid",
+    "strong_categories": [
+      "necklace",
+      "fashion_ring"
+    ],
+    "experience_years": 2,
+    "avg_cr": 0.35,
+    "avg_daily_revenue": 7800000,
+    "phone": "0901234031"
+  },
+  {
+    "id": "NV032",
+    "store_id": "STR-007",
+    "name": "Phạm Thị Thu Nga",
+    "level": "junior",
+    "strong_categories": [
+      "earring",
+      "bracelet"
+    ],
+    "experience_years": 0.67,
+    "avg_cr": 0.27,
+    "avg_daily_revenue": 5600000,
+    "phone": "0901234032"
+  },
+  {
+    "id": "NV033",
+    "store_id": "STR-008",
+    "name": "Bùi Thị Diễm Châu",
+    "level": "senior",
+    "strong_categories": [
+      "wedding_ring",
+      "engagement_ring"
+    ],
+    "experience_years": 5,
+    "avg_cr": 0.46,
+    "avg_daily_revenue": 12500000,
+    "phone": "0901234033"
+  },
+  {
+    "id": "NV034",
+    "store_id": "STR-008",
+    "name": "Trần Minh Tuấn",
+    "level": "mid",
+    "strong_categories": [
+      "fashion_ring",
+      "bracelet"
+    ],
+    "experience_years": 2.5,
+    "avg_cr": 0.38,
+    "avg_daily_revenue": 9200000,
+    "phone": "0901234034"
+  },
+  {
+    "id": "NV035",
+    "store_id": "STR-008",
+    "name": "Lý Thị Mỹ Hạnh",
+    "level": "junior",
+    "strong_categories": [
+      "earring",
+      "necklace"
+    ],
+    "experience_years": 0.5,
+    "avg_cr": 0.28,
+    "avg_daily_revenue": 5800000,
+    "phone": "0901234035"
+  },
+  {
+    "id": "NV036",
+    "store_id": "STR-008",
+    "name": "Nguyễn Hữu Khang",
+    "level": "mid",
+    "strong_categories": [
+      "necklace",
+      "fashion_ring"
+    ],
+    "experience_years": 1.5,
+    "avg_cr": 0.35,
+    "avg_daily_revenue": 8100000,
+    "phone": "0901234036"
+  }
+]

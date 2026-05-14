@@ -1,0 +1,376 @@
+[
+  {
+    "id": "NC-218",
+    "name": "Nhẫn cưới vàng 18k đôi Classic",
+    "category": "wedding_ring",
+    "price": 8500000,
+    "margin_pct": 0.32,
+    "cvr_history": 0.45,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NC-305",
+    "name": "Nhẫn cưới kim cương 0.3ct đôi",
+    "category": "wedding_ring",
+    "price": 18200000,
+    "margin_pct": 0.38,
+    "cvr_history": 0.38,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NC-401",
+    "name": "Nhẫn cưới bạch kim đôi Premium",
+    "category": "wedding_ring",
+    "price": 26500000,
+    "margin_pct": 0.42,
+    "cvr_history": 0.28,
+    "unit": "đôi",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "NC-156",
+    "name": "Nhẫn cưới vàng 14k đôi Everyday",
+    "category": "wedding_ring",
+    "price": 5800000,
+    "margin_pct": 0.29,
+    "cvr_history": 0.52,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NC-520",
+    "name": "Nhẫn cưới vàng hồng 18k Rose",
+    "category": "wedding_ring",
+    "price": 11400000,
+    "margin_pct": 0.35,
+    "cvr_history": 0.41,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "ND-112",
+    "name": "Nhẫn đính hôn kim cương 0.5ct",
+    "category": "engagement_ring",
+    "price": 23800000,
+    "margin_pct": 0.4,
+    "cvr_history": 0.32,
+    "unit": "chiếc",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "ND-089",
+    "name": "Nhẫn đính hôn kim cương 0.3ct Solitaire",
+    "category": "engagement_ring",
+    "price": 15600000,
+    "margin_pct": 0.36,
+    "cvr_history": 0.39,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "ND-200",
+    "name": "Nhẫn đính hôn vàng trắng đá CZ",
+    "category": "engagement_ring",
+    "price": 7200000,
+    "margin_pct": 0.28,
+    "cvr_history": 0.48,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NT-301",
+    "name": "Nhẫn vàng 14k đính đá sapphire",
+    "category": "fashion_ring",
+    "price": 4800000,
+    "margin_pct": 0.25,
+    "cvr_history": 0.55,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NT-145",
+    "name": "Nhẫn bạc sterling đính đá",
+    "category": "fashion_ring",
+    "price": 1200000,
+    "margin_pct": 0.18,
+    "cvr_history": 0.68,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "NT-267",
+    "name": "Nhẫn vàng 18k hoa cúc",
+    "category": "fashion_ring",
+    "price": 3500000,
+    "margin_pct": 0.24,
+    "cvr_history": 0.58,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "LC-201",
+    "name": "Lắc vàng 18k trơn Classic",
+    "category": "bracelet",
+    "price": 4200000,
+    "margin_pct": 0.27,
+    "cvr_history": 0.58,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "LC-388",
+    "name": "Lắc vàng 14k đính đá nhiều màu",
+    "category": "bracelet",
+    "price": 6100000,
+    "margin_pct": 0.29,
+    "cvr_history": 0.5,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "LC-102",
+    "name": "Lắc bạc sterling charm",
+    "category": "bracelet",
+    "price": 980000,
+    "margin_pct": 0.16,
+    "cvr_history": 0.72,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "LC-450",
+    "name": "Lắc vàng hồng 18k dạng xích",
+    "category": "bracelet",
+    "price": 5500000,
+    "margin_pct": 0.28,
+    "cvr_history": 0.49,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "DC-105",
+    "name": "Dây chuyền vàng trắng 18k mặt kim cương",
+    "category": "necklace",
+    "price": 9800000,
+    "margin_pct": 0.33,
+    "cvr_history": 0.43,
+    "unit": "chiếc",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "DC-218",
+    "name": "Dây chuyền vàng 14k mặt tròn",
+    "category": "necklace",
+    "price": 3600000,
+    "margin_pct": 0.24,
+    "cvr_history": 0.62,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "DC-076",
+    "name": "Dây chuyền bạc sterling đính đá",
+    "category": "necklace",
+    "price": 1450000,
+    "margin_pct": 0.17,
+    "cvr_history": 0.7,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "DC-330",
+    "name": "Dây chuyền vàng 18k herringbone",
+    "category": "necklace",
+    "price": 7200000,
+    "margin_pct": 0.3,
+    "cvr_history": 0.48,
+    "unit": "chiếc",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "BT-088",
+    "name": "Bông tai kim cương 0.2ct stud",
+    "category": "earring",
+    "price": 8900000,
+    "margin_pct": 0.35,
+    "cvr_history": 0.47,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "BT-201",
+    "name": "Bông tai vàng 18k drop",
+    "category": "earring",
+    "price": 4100000,
+    "margin_pct": 0.26,
+    "cvr_history": 0.6,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "BT-055",
+    "name": "Bông tai bạc sterling hoa",
+    "category": "earring",
+    "price": 680000,
+    "margin_pct": 0.15,
+    "cvr_history": 0.75,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "BT-312",
+    "name": "Bông tai vàng 14k ngọc trai",
+    "category": "earring",
+    "price": 3200000,
+    "margin_pct": 0.27,
+    "cvr_history": 0.58,
+    "unit": "đôi",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "DH-Longines-L45",
+    "name": "Longines L4.5 nam",
+    "category": "watch",
+    "price": 18500000,
+    "margin_pct": 0.2,
+    "cvr_history": 0.28,
+    "unit": "chiếc",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "DH-Tissot-T01",
+    "name": "Tissot T-Classic nữ",
+    "category": "watch",
+    "price": 12200000,
+    "margin_pct": 0.18,
+    "cvr_history": 0.32,
+    "unit": "chiếc",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "DH-Citizen-BM",
+    "name": "Citizen BM8180 nam",
+    "category": "watch",
+    "price": 5800000,
+    "margin_pct": 0.15,
+    "cvr_history": 0.41,
+    "unit": "chiếc",
+    "segments": [
+      "A"
+    ]
+  },
+  {
+    "id": "PK-001",
+    "name": "Hộp đựng trang sức cao cấp",
+    "category": "accessory",
+    "price": 380000,
+    "margin_pct": 0.45,
+    "cvr_history": 0.82,
+    "unit": "cái",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "PK-002",
+    "name": "Dịch vụ đánh bóng vệ sinh trang sức",
+    "category": "accessory",
+    "price": 150000,
+    "margin_pct": 0.9,
+    "cvr_history": 0.4,
+    "unit": "lần",
+    "segments": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+]

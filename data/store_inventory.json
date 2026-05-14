@@ -1,0 +1,1362 @@
+[
+  {
+    "store_id": "STR-001",
+    "sku_id": "NC-218",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.521,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NC-305",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.414,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NC-401",
+    "stock": 0,
+    "display_position": "vault",
+    "cvr_local": 0.323,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NC-156",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.564,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NC-520",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.49,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "ND-112",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.335,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "ND-089",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.424,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "ND-200",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.544,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NT-301",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.481,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NT-145",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.624,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "NT-267",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.532,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "LC-201",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.531,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "LC-388",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.475,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "LC-102",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.711,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "LC-450",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.484,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DC-105",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.442,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DC-218",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.612,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DC-076",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.718,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DC-330",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.468,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "BT-088",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.48,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "BT-201",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.597,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "BT-055",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.748,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "BT-312",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.57,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DH-Longines-L45",
+    "stock": 0,
+    "display_position": "vault",
+    "cvr_local": 0.324,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DH-Tissot-T01",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.352,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "DH-Citizen-BM",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.441,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "PK-001",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.824,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-001",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "standard",
+    "cvr_local": 0.381,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NC-218",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.453,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NC-305",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.432,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NC-401",
+    "stock": 0,
+    "display_position": "vault",
+    "cvr_local": 0.295,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NC-156",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.566,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NC-520",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.454,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "ND-112",
+    "stock": 0,
+    "display_position": "vault",
+    "cvr_local": 0.347,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "ND-089",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.415,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "ND-200",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.507,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NT-301",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.622,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NT-145",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.736,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "NT-267",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.662,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "LC-201",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.634,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "LC-388",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.568,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "LC-102",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.765,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "LC-450",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.562,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DC-105",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.492,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DC-218",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.654,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DC-076",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.731,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DC-330",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.531,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "BT-088",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.476,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "BT-201",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.654,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "BT-055",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.786,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "BT-312",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.616,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DH-Longines-L45",
+    "stock": 2,
+    "display_position": "vault",
+    "cvr_local": 0.277,
+    "last_sold_date": "2026-04-23"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DH-Tissot-T01",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.313,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "DH-Citizen-BM",
+    "stock": 3,
+    "display_position": "standard",
+    "cvr_local": 0.395,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "PK-001",
+    "stock": 14,
+    "display_position": "standard",
+    "cvr_local": 0.84,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-002",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "standard",
+    "cvr_local": 0.372,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NC-218",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.403,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NC-305",
+    "stock": 8,
+    "display_position": "standard",
+    "cvr_local": 0.304,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NC-156",
+    "stock": 6,
+    "display_position": "standard",
+    "cvr_local": 0.454,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NC-520",
+    "stock": 3,
+    "display_position": "standard",
+    "cvr_local": 0.351,
+    "last_sold_date": "2026-05-13"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "ND-089",
+    "stock": 9,
+    "display_position": "standard",
+    "cvr_local": 0.347,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "ND-200",
+    "stock": 7,
+    "display_position": "standard",
+    "cvr_local": 0.425,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NT-301",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.622,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NT-145",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.703,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "NT-267",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.654,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "LC-201",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.606,
+    "last_sold_date": "2026-05-10"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "LC-388",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.511,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "LC-102",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.786,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "LC-450",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.558,
+    "last_sold_date": "2026-05-08"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "DC-218",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.612,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "DC-076",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.716,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "DC-330",
+    "stock": 0,
+    "display_position": "standard",
+    "cvr_local": 0.454,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "BT-088",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.569,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "BT-201",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.705,
+    "last_sold_date": "2026-05-09"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "BT-055",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.832,
+    "last_sold_date": "2026-05-12"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "BT-312",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.677,
+    "last_sold_date": "2026-05-11"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "PK-001",
+    "stock": 1,
+    "display_position": "front",
+    "cvr_local": 0.9,
+    "last_sold_date": "2026-05-14"
+  },
+  {
+    "store_id": "STR-003",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "front",
+    "cvr_local": 0.492,
+    "last_sold_date": "2026-05-05"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NC-218",
+    "stock": 6,
+    "display_position": "standard",
+    "cvr_local": 0.417,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NC-305",
+    "stock": 5,
+    "display_position": "standard",
+    "cvr_local": 0.358,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NC-156",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.493,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NC-520",
+    "stock": 4,
+    "display_position": "standard",
+    "cvr_local": 0.351,
+    "last_sold_date": "2026-05-01"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "ND-089",
+    "stock": 11,
+    "display_position": "standard",
+    "cvr_local": 0.417,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "ND-200",
+    "stock": 7,
+    "display_position": "standard",
+    "cvr_local": 0.466,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NT-301",
+    "stock": 4,
+    "display_position": "front",
+    "cvr_local": 0.655,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NT-145",
+    "stock": 19,
+    "display_position": "front",
+    "cvr_local": 0.766,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "NT-267",
+    "stock": 9,
+    "display_position": "front",
+    "cvr_local": 0.683,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "LC-201",
+    "stock": 4,
+    "display_position": "front",
+    "cvr_local": 0.657,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "LC-388",
+    "stock": 6,
+    "display_position": "front",
+    "cvr_local": 0.547,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "LC-102",
+    "stock": 16,
+    "display_position": "front",
+    "cvr_local": 0.799,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "LC-450",
+    "stock": 9,
+    "display_position": "front",
+    "cvr_local": 0.553,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "DC-218",
+    "stock": 14,
+    "display_position": "standard",
+    "cvr_local": 0.614,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "DC-076",
+    "stock": 15,
+    "display_position": "standard",
+    "cvr_local": 0.691,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "DC-330",
+    "stock": 1,
+    "display_position": "standard",
+    "cvr_local": 0.475,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "BT-088",
+    "stock": 2,
+    "display_position": "front",
+    "cvr_local": 0.547,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "BT-201",
+    "stock": 3,
+    "display_position": "front",
+    "cvr_local": 0.642,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "BT-055",
+    "stock": 20,
+    "display_position": "front",
+    "cvr_local": 0.772,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "BT-312",
+    "stock": 6,
+    "display_position": "front",
+    "cvr_local": 0.606,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "PK-001",
+    "stock": 34,
+    "display_position": "standard",
+    "cvr_local": 0.894,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-004",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "standard",
+    "cvr_local": 0.469,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NC-218",
+    "stock": 9,
+    "display_position": "standard",
+    "cvr_local": 0.436,
+    "last_sold_date": "2026-05-01"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NC-305",
+    "stock": 9,
+    "display_position": "standard",
+    "cvr_local": 0.389,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NC-156",
+    "stock": 11,
+    "display_position": "standard",
+    "cvr_local": 0.53,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NC-520",
+    "stock": 5,
+    "display_position": "standard",
+    "cvr_local": 0.384,
+    "last_sold_date": "2026-04-30"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "ND-089",
+    "stock": 5,
+    "display_position": "standard",
+    "cvr_local": 0.406,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "ND-200",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.509,
+    "last_sold_date": "2026-04-28"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NT-301",
+    "stock": 9,
+    "display_position": "standard",
+    "cvr_local": 0.603,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NT-145",
+    "stock": 31,
+    "display_position": "standard",
+    "cvr_local": 0.735,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "NT-267",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.591,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "LC-201",
+    "stock": 3,
+    "display_position": "front",
+    "cvr_local": 0.604,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "LC-388",
+    "stock": 2,
+    "display_position": "front",
+    "cvr_local": 0.54,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "LC-102",
+    "stock": 11,
+    "display_position": "front",
+    "cvr_local": 0.799,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "LC-450",
+    "stock": 0,
+    "display_position": "front",
+    "cvr_local": 0.57,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "DC-218",
+    "stock": 8,
+    "display_position": "front",
+    "cvr_local": 0.696,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "DC-076",
+    "stock": 14,
+    "display_position": "front",
+    "cvr_local": 0.748,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "DC-330",
+    "stock": 11,
+    "display_position": "front",
+    "cvr_local": 0.555,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "BT-088",
+    "stock": 2,
+    "display_position": "front",
+    "cvr_local": 0.524,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "BT-201",
+    "stock": 8,
+    "display_position": "front",
+    "cvr_local": 0.673,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "BT-055",
+    "stock": 25,
+    "display_position": "front",
+    "cvr_local": 0.822,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "BT-312",
+    "stock": 10,
+    "display_position": "front",
+    "cvr_local": 0.621,
+    "last_sold_date": "2026-05-03"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "PK-001",
+    "stock": 24,
+    "display_position": "front",
+    "cvr_local": 0.9,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-005",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "front",
+    "cvr_local": 0.508,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NC-218",
+    "stock": 8,
+    "display_position": "standard",
+    "cvr_local": 0.379,
+    "last_sold_date": "2026-05-01"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NC-305",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.296,
+    "last_sold_date": "2026-04-26"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NC-156",
+    "stock": 8,
+    "display_position": "standard",
+    "cvr_local": 0.462,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "ND-200",
+    "stock": 10,
+    "display_position": "standard",
+    "cvr_local": 0.5,
+    "last_sold_date": "2026-04-29"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NT-301",
+    "stock": 4,
+    "display_position": "front",
+    "cvr_local": 0.599,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NT-145",
+    "stock": 20,
+    "display_position": "front",
+    "cvr_local": 0.734,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "NT-267",
+    "stock": 8,
+    "display_position": "front",
+    "cvr_local": 0.635,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "LC-201",
+    "stock": 4,
+    "display_position": "front",
+    "cvr_local": 0.651,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "LC-102",
+    "stock": 18,
+    "display_position": "front",
+    "cvr_local": 0.747,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "DC-218",
+    "stock": 3,
+    "display_position": "standard",
+    "cvr_local": 0.685,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "DC-076",
+    "stock": 6,
+    "display_position": "standard",
+    "cvr_local": 0.73,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "BT-201",
+    "stock": 2,
+    "display_position": "front",
+    "cvr_local": 0.669,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "BT-055",
+    "stock": 18,
+    "display_position": "front",
+    "cvr_local": 0.844,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "BT-312",
+    "stock": 8,
+    "display_position": "front",
+    "cvr_local": 0.644,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "PK-001",
+    "stock": 36,
+    "display_position": "front",
+    "cvr_local": 0.9,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-006",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "front",
+    "cvr_local": 0.536,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NC-218",
+    "stock": 4,
+    "display_position": "standard",
+    "cvr_local": 0.417,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NC-305",
+    "stock": 11,
+    "display_position": "standard",
+    "cvr_local": 0.337,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NC-156",
+    "stock": 6,
+    "display_position": "standard",
+    "cvr_local": 0.455,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "ND-200",
+    "stock": 3,
+    "display_position": "standard",
+    "cvr_local": 0.468,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NT-301",
+    "stock": 8,
+    "display_position": "standard",
+    "cvr_local": 0.593,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NT-145",
+    "stock": 17,
+    "display_position": "standard",
+    "cvr_local": 0.739,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "NT-267",
+    "stock": 7,
+    "display_position": "standard",
+    "cvr_local": 0.611,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "LC-201",
+    "stock": 3,
+    "display_position": "front",
+    "cvr_local": 0.635,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "LC-102",
+    "stock": 14,
+    "display_position": "front",
+    "cvr_local": 0.739,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "DC-218",
+    "stock": 8,
+    "display_position": "standard",
+    "cvr_local": 0.648,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "DC-076",
+    "stock": 15,
+    "display_position": "standard",
+    "cvr_local": 0.711,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "BT-201",
+    "stock": 8,
+    "display_position": "front",
+    "cvr_local": 0.666,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "BT-055",
+    "stock": 14,
+    "display_position": "front",
+    "cvr_local": 0.858,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "BT-312",
+    "stock": 10,
+    "display_position": "front",
+    "cvr_local": 0.654,
+    "last_sold_date": "2026-05-06"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "PK-001",
+    "stock": 28,
+    "display_position": "front",
+    "cvr_local": 0.9,
+    "last_sold_date": "2026-05-07"
+  },
+  {
+    "store_id": "STR-007",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "front",
+    "cvr_local": 0.523,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NC-218",
+    "stock": 6,
+    "display_position": "standard",
+    "cvr_local": 0.486,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NC-305",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.39,
+    "last_sold_date": "2026-04-18"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NC-156",
+    "stock": 13,
+    "display_position": "standard",
+    "cvr_local": 0.55,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "ND-200",
+    "stock": 7,
+    "display_position": "standard",
+    "cvr_local": 0.453,
+    "last_sold_date": "2026-05-01"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NT-301",
+    "stock": 11,
+    "display_position": "standard",
+    "cvr_local": 0.559,
+    "last_sold_date": "2026-04-28"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NT-145",
+    "stock": 24,
+    "display_position": "standard",
+    "cvr_local": 0.73,
+    "last_sold_date": "2026-05-01"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "NT-267",
+    "stock": 12,
+    "display_position": "standard",
+    "cvr_local": 0.587,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "LC-201",
+    "stock": 6,
+    "display_position": "front",
+    "cvr_local": 0.629,
+    "last_sold_date": "2026-05-04"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "LC-102",
+    "stock": 18,
+    "display_position": "front",
+    "cvr_local": 0.772,
+    "last_sold_date": "2026-05-05"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "DC-218",
+    "stock": 7,
+    "display_position": "front",
+    "cvr_local": 0.671,
+    "last_sold_date": "2026-05-03"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "DC-076",
+    "stock": 11,
+    "display_position": "front",
+    "cvr_local": 0.759,
+    "last_sold_date": "2026-05-03"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "BT-201",
+    "stock": 6,
+    "display_position": "front",
+    "cvr_local": 0.656,
+    "last_sold_date": "2026-05-03"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "BT-055",
+    "stock": 26,
+    "display_position": "front",
+    "cvr_local": 0.825,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "BT-312",
+    "stock": 14,
+    "display_position": "front",
+    "cvr_local": 0.653,
+    "last_sold_date": "2026-05-02"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "PK-001",
+    "stock": 24,
+    "display_position": "front",
+    "cvr_local": 0.9,
+    "last_sold_date": "2026-05-03"
+  },
+  {
+    "store_id": "STR-008",
+    "sku_id": "PK-002",
+    "stock": 9999,
+    "display_position": "front",
+    "cvr_local": 0.477,
+    "last_sold_date": "2026-05-05"
+  }
+]
