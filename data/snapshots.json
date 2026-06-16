@@ -20634,5 +20634,4621 @@
     "special_day_multiplier": 1.0,
     "simulated": true,
     "is_partial_day": true
+  },
+  {
+    "date": "2026-05-15",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 59806000,
+    "target_pct": 0.6500652173913043,
+    "traffic": 164,
+    "num_transactions": 35,
+    "conversion_rate": 0.21341463414634146,
+    "aov": 1708742.857142857,
+    "category_revenue": {
+      "watch": 52328000,
+      "accessory": 7478000
+    },
+    "customer_type_count": {
+      "couple": 16,
+      "female_solo": 8,
+      "family": 1,
+      "male_solo": 7,
+      "gift_buyer": 3
+    },
+    "shift_revenue": {
+      "morning": 50043000,
+      "afternoon": 9763000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 49037000,
+        "orders": 12,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 2349000,
+        "orders": 10,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 7253000,
+        "orders": 8,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 1167000,
+        "orders": 5,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-16",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8629000,
+    "target_pct": 0.09379347826086956,
+    "traffic": 221,
+    "num_transactions": 59,
+    "conversion_rate": 0.2669683257918552,
+    "aov": 146254.2372881356,
+    "category_revenue": {
+      "accessory": 8629000
+    },
+    "customer_type_count": {
+      "family": 4,
+      "male_solo": 8,
+      "female_solo": 34,
+      "couple": 10,
+      "gift_buyer": 3
+    },
+    "shift_revenue": {
+      "morning": 3065000,
+      "afternoon": 4974000,
+      "evening": 590000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1613000,
+        "orders": 11,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 2199000,
+        "orders": 15,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV004": {
+        "revenue": 1733000,
+        "orders": 12,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV005": {
+        "revenue": 1468000,
+        "orders": 10,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV002": {
+        "revenue": 1470000,
+        "orders": 10,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-17",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8993000,
+    "target_pct": 0.09775,
+    "traffic": 242,
+    "num_transactions": 62,
+    "conversion_rate": 0.256198347107438,
+    "aov": 145048.38709677418,
+    "category_revenue": {
+      "accessory": 8993000
+    },
+    "customer_type_count": {
+      "female_solo": 31,
+      "male_solo": 12,
+      "gift_buyer": 4,
+      "couple": 10,
+      "family": 5
+    },
+    "shift_revenue": {
+      "morning": 3312000,
+      "afternoon": 5543000,
+      "evening": 138000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1449000,
+        "orders": 10,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 1875000,
+        "orders": 13,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV004": {
+        "revenue": 2049000,
+        "orders": 14,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 2176000,
+        "orders": 15,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV005": {
+        "revenue": 1444000,
+        "orders": 10,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-18",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8196000,
+    "target_pct": 0.08908695652173913,
+    "traffic": 132,
+    "num_transactions": 56,
+    "conversion_rate": 0.42424242424242425,
+    "aov": 146357.14285714287,
+    "category_revenue": {
+      "accessory": 8196000
+    },
+    "customer_type_count": {
+      "female_solo": 17,
+      "gift_buyer": 9,
+      "male_solo": 12,
+      "couple": 13,
+      "family": 5
+    },
+    "shift_revenue": {
+      "morning": 3065000,
+      "afternoon": 4983000,
+      "evening": 148000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3208000,
+        "orders": 22,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1311000,
+        "orders": 9,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 1336000,
+        "orders": 9,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 2193000,
+        "orders": 15,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV005": {
+        "revenue": 148000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-19",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 7254000,
+    "target_pct": 0.07884782608695652,
+    "traffic": 174,
+    "num_transactions": 50,
+    "conversion_rate": 0.28735632183908044,
+    "aov": 145080.0,
+    "category_revenue": {
+      "accessory": 7254000
+    },
+    "customer_type_count": {
+      "female_solo": 10,
+      "couple": 15,
+      "male_solo": 10,
+      "family": 4,
+      "gift_buyer": 11
+    },
+    "shift_revenue": {
+      "morning": 2613000,
+      "afternoon": 4195000,
+      "evening": 446000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2315000,
+        "orders": 16,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1459000,
+        "orders": 10,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV001": {
+        "revenue": 2338000,
+        "orders": 16,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 696000,
+        "orders": 5,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV005": {
+        "revenue": 150000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV004": {
+        "revenue": 296000,
+        "orders": 2,
+        "name": "Võ Thanh Tùng"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-20",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8767000,
+    "target_pct": 0.09529347826086956,
+    "traffic": 182,
+    "num_transactions": 60,
+    "conversion_rate": 0.32967032967032966,
+    "aov": 146116.66666666666,
+    "category_revenue": {
+      "accessory": 8767000
+    },
+    "customer_type_count": {
+      "gift_buyer": 9,
+      "female_solo": 18,
+      "family": 4,
+      "couple": 20,
+      "male_solo": 9
+    },
+    "shift_revenue": {
+      "morning": 2752000,
+      "afternoon": 5422000,
+      "evening": 593000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1730000,
+        "orders": 12,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 2787000,
+        "orders": 19,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV004": {
+        "revenue": 1902000,
+        "orders": 13,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 2051000,
+        "orders": 14,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 297000,
+        "orders": 2,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-21",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 7149000,
+    "target_pct": 0.07770652173913044,
+    "traffic": 178,
+    "num_transactions": 49,
+    "conversion_rate": 0.2752808988764045,
+    "aov": 145897.95918367346,
+    "category_revenue": {
+      "accessory": 7149000
+    },
+    "customer_type_count": {
+      "couple": 17,
+      "female_solo": 20,
+      "male_solo": 5,
+      "family": 3,
+      "gift_buyer": 4
+    },
+    "shift_revenue": {
+      "morning": 2489000,
+      "afternoon": 4365000,
+      "evening": 295000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1321000,
+        "orders": 9,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 2329000,
+        "orders": 16,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1749000,
+        "orders": 12,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 1604000,
+        "orders": 11,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV007": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-22",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8043000,
+    "target_pct": 0.08742391304347825,
+    "traffic": 175,
+    "num_transactions": 55,
+    "conversion_rate": 0.3142857142857143,
+    "aov": 146236.36363636365,
+    "category_revenue": {
+      "accessory": 8043000
+    },
+    "customer_type_count": {
+      "gift_buyer": 11,
+      "male_solo": 4,
+      "couple": 17,
+      "female_solo": 20,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 2347000,
+      "afternoon": 5548000,
+      "evening": 148000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 1324000,
+        "orders": 9,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 2784000,
+        "orders": 19,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 2186000,
+        "orders": 15,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 1601000,
+        "orders": 11,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV005": {
+        "revenue": 148000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-23",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8927000,
+    "target_pct": 0.09703260869565217,
+    "traffic": 237,
+    "num_transactions": 61,
+    "conversion_rate": 0.25738396624472576,
+    "aov": 146344.26229508198,
+    "category_revenue": {
+      "accessory": 8927000
+    },
+    "customer_type_count": {
+      "couple": 22,
+      "male_solo": 10,
+      "female_solo": 16,
+      "gift_buyer": 7,
+      "family": 6
+    },
+    "shift_revenue": {
+      "morning": 2784000,
+      "afternoon": 5561000,
+      "evening": 582000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3101000,
+        "orders": 21,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 443000,
+        "orders": 3,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 2321000,
+        "orders": 16,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 1456000,
+        "orders": 10,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV005": {
+        "revenue": 1173000,
+        "orders": 8,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV007": {
+        "revenue": 433000,
+        "orders": 3,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-24",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 9664000,
+    "target_pct": 0.10504347826086957,
+    "traffic": 227,
+    "num_transactions": 66,
+    "conversion_rate": 0.2907488986784141,
+    "aov": 146424.24242424243,
+    "category_revenue": {
+      "accessory": 9664000
+    },
+    "customer_type_count": {
+      "male_solo": 12,
+      "female_solo": 19,
+      "couple": 18,
+      "gift_buyer": 14,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 3081000,
+      "afternoon": 6435000,
+      "evening": 148000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 872000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 2494000,
+        "orders": 17,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV003": {
+        "revenue": 2925000,
+        "orders": 20,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV007": {
+        "revenue": 1333000,
+        "orders": 9,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 1892000,
+        "orders": 13,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV005": {
+        "revenue": 148000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-25",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 5930000,
+    "target_pct": 0.06445652173913044,
+    "traffic": 123,
+    "num_transactions": 41,
+    "conversion_rate": 0.3333333333333333,
+    "aov": 144634.1463414634,
+    "category_revenue": {
+      "accessory": 5930000
+    },
+    "customer_type_count": {
+      "female_solo": 17,
+      "male_solo": 5,
+      "family": 4,
+      "couple": 14,
+      "gift_buyer": 1
+    },
+    "shift_revenue": {
+      "morning": 2587000,
+      "afternoon": 3058000,
+      "evening": 285000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 1284000,
+        "orders": 9,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 2183000,
+        "orders": 15,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV007": {
+        "revenue": 1146000,
+        "orders": 8,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 1032000,
+        "orders": 7,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV005": {
+        "revenue": 285000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-26",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8632000,
+    "target_pct": 0.09382608695652174,
+    "traffic": 173,
+    "num_transactions": 59,
+    "conversion_rate": 0.34104046242774566,
+    "aov": 146305.08474576272,
+    "category_revenue": {
+      "accessory": 8632000
+    },
+    "customer_type_count": {
+      "family": 6,
+      "male_solo": 15,
+      "female_solo": 30,
+      "couple": 4,
+      "gift_buyer": 4
+    },
+    "shift_revenue": {
+      "morning": 2775000,
+      "afternoon": 5708000,
+      "evening": 149000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3636000,
+        "orders": 25,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 1173000,
+        "orders": 8,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV002": {
+        "revenue": 1913000,
+        "orders": 13,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 1761000,
+        "orders": 12,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV007": {
+        "revenue": 149000,
+        "orders": 1,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-27",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6201000,
+    "target_pct": 0.06740217391304348,
+    "traffic": 174,
+    "num_transactions": 43,
+    "conversion_rate": 0.2471264367816092,
+    "aov": 144209.3023255814,
+    "category_revenue": {
+      "accessory": 6201000
+    },
+    "customer_type_count": {
+      "couple": 12,
+      "male_solo": 5,
+      "family": 6,
+      "female_solo": 13,
+      "gift_buyer": 7
+    },
+    "shift_revenue": {
+      "morning": 2470000,
+      "afternoon": 3164000,
+      "evening": 567000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2171000,
+        "orders": 15,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1155000,
+        "orders": 8,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 1020000,
+        "orders": 7,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 1288000,
+        "orders": 9,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV005": {
+        "revenue": 421000,
+        "orders": 3,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-28",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8485000,
+    "target_pct": 0.09222826086956522,
+    "traffic": 182,
+    "num_transactions": 58,
+    "conversion_rate": 0.31868131868131866,
+    "aov": 146293.10344827586,
+    "category_revenue": {
+      "accessory": 8485000
+    },
+    "customer_type_count": {
+      "couple": 26,
+      "male_solo": 6,
+      "gift_buyer": 7,
+      "female_solo": 15,
+      "family": 4
+    },
+    "shift_revenue": {
+      "morning": 2759000,
+      "afternoon": 5135000,
+      "evening": 591000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3086000,
+        "orders": 21,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1875000,
+        "orders": 13,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV001": {
+        "revenue": 1465000,
+        "orders": 10,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 1468000,
+        "orders": 10,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV005": {
+        "revenue": 293000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV004": {
+        "revenue": 298000,
+        "orders": 2,
+        "name": "Võ Thanh Tùng"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-29",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 9157000,
+    "target_pct": 0.09953260869565217,
+    "traffic": 170,
+    "num_transactions": 63,
+    "conversion_rate": 0.37058823529411766,
+    "aov": 145349.20634920636,
+    "category_revenue": {
+      "accessory": 9157000
+    },
+    "customer_type_count": {
+      "couple": 24,
+      "male_solo": 13,
+      "family": 5,
+      "female_solo": 14,
+      "gift_buyer": 7
+    },
+    "shift_revenue": {
+      "morning": 2747000,
+      "afternoon": 5823000,
+      "evening": 587000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 2165000,
+        "orders": 15,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 2755000,
+        "orders": 19,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV007": {
+        "revenue": 1903000,
+        "orders": 13,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 1747000,
+        "orders": 12,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 298000,
+        "orders": 2,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV005": {
+        "revenue": 289000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-30",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 8542000,
+    "target_pct": 0.09284782608695652,
+    "traffic": 221,
+    "num_transactions": 58,
+    "conversion_rate": 0.26244343891402716,
+    "aov": 147275.8620689655,
+    "category_revenue": {
+      "accessory": 8542000
+    },
+    "customer_type_count": {
+      "female_solo": 18,
+      "male_solo": 7,
+      "couple": 22,
+      "gift_buyer": 7,
+      "family": 4
+    },
+    "shift_revenue": {
+      "morning": 3108000,
+      "afternoon": 4853000,
+      "evening": 581000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2647000,
+        "orders": 18,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 1042000,
+        "orders": 7,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 1756000,
+        "orders": 12,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 1625000,
+        "orders": 11,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV005": {
+        "revenue": 1026000,
+        "orders": 7,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV007": {
+        "revenue": 446000,
+        "orders": 3,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-31",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 7574000,
+    "target_pct": 0.08232608695652174,
+    "traffic": 220,
+    "num_transactions": 52,
+    "conversion_rate": 0.23636363636363636,
+    "aov": 145653.84615384616,
+    "category_revenue": {
+      "accessory": 7574000
+    },
+    "customer_type_count": {
+      "couple": 14,
+      "female_solo": 15,
+      "male_solo": 8,
+      "family": 6,
+      "gift_buyer": 9
+    },
+    "shift_revenue": {
+      "morning": 2768000,
+      "afternoon": 4806000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2189000,
+        "orders": 15,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 1156000,
+        "orders": 8,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 1336000,
+        "orders": 9,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV005": {
+        "revenue": 1288000,
+        "orders": 9,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV002": {
+        "revenue": 1605000,
+        "orders": 11,
+        "name": "Lê Hoàng Minh Khôi"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-01",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 4795000,
+    "target_pct": 0.052119565217391306,
+    "traffic": 128,
+    "num_transactions": 33,
+    "conversion_rate": 0.2578125,
+    "aov": 145303.0303030303,
+    "category_revenue": {
+      "accessory": 4795000
+    },
+    "customer_type_count": {
+      "female_solo": 12,
+      "couple": 10,
+      "family": 3,
+      "male_solo": 7,
+      "gift_buyer": 1
+    },
+    "shift_revenue": {
+      "morning": 1883000,
+      "afternoon": 2912000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2340000,
+        "orders": 16,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 874000,
+        "orders": 6,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV002": {
+        "revenue": 866000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 715000,
+        "orders": 5,
+        "name": "Võ Thanh Tùng"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-02",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6216000,
+    "target_pct": 0.06756521739130435,
+    "traffic": 176,
+    "num_transactions": 43,
+    "conversion_rate": 0.24431818181818182,
+    "aov": 144558.13953488372,
+    "category_revenue": {
+      "accessory": 6216000
+    },
+    "customer_type_count": {
+      "male_solo": 5,
+      "female_solo": 10,
+      "family": 5,
+      "gift_buyer": 3,
+      "couple": 20
+    },
+    "shift_revenue": {
+      "morning": 2731000,
+      "afternoon": 3189000,
+      "evening": 296000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3026000,
+        "orders": 21,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 861000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 1457000,
+        "orders": 10,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 576000,
+        "orders": 4,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV005": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV004": {
+        "revenue": 149000,
+        "orders": 1,
+        "name": "Võ Thanh Tùng"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-03",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6699000,
+    "target_pct": 0.07281521739130435,
+    "traffic": 176,
+    "num_transactions": 46,
+    "conversion_rate": 0.26136363636363635,
+    "aov": 145630.4347826087,
+    "category_revenue": {
+      "accessory": 6699000
+    },
+    "customer_type_count": {
+      "couple": 17,
+      "female_solo": 11,
+      "family": 6,
+      "male_solo": 8,
+      "gift_buyer": 4
+    },
+    "shift_revenue": {
+      "morning": 2349000,
+      "afternoon": 3921000,
+      "evening": 429000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1767000,
+        "orders": 12,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 2186000,
+        "orders": 15,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1455000,
+        "orders": 10,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 1009000,
+        "orders": 7,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV007": {
+        "revenue": 282000,
+        "orders": 2,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-04",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6718000,
+    "target_pct": 0.07302173913043478,
+    "traffic": 179,
+    "num_transactions": 46,
+    "conversion_rate": 0.2569832402234637,
+    "aov": 146043.47826086957,
+    "category_revenue": {
+      "accessory": 6718000
+    },
+    "customer_type_count": {
+      "male_solo": 6,
+      "female_solo": 12,
+      "couple": 21,
+      "family": 1,
+      "gift_buyer": 6
+    },
+    "shift_revenue": {
+      "morning": 2488000,
+      "afternoon": 4080000,
+      "evening": 150000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 1308000,
+        "orders": 9,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 3081000,
+        "orders": 21,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 727000,
+        "orders": 5,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 1452000,
+        "orders": 10,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV004": {
+        "revenue": 150000,
+        "orders": 1,
+        "name": "Võ Thanh Tùng"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-05",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 9452000,
+    "target_pct": 0.10273913043478261,
+    "traffic": 200,
+    "num_transactions": 65,
+    "conversion_rate": 0.325,
+    "aov": 145415.38461538462,
+    "category_revenue": {
+      "accessory": 9452000
+    },
+    "customer_type_count": {
+      "female_solo": 29,
+      "couple": 11,
+      "gift_buyer": 10,
+      "family": 3,
+      "male_solo": 12
+    },
+    "shift_revenue": {
+      "morning": 2471000,
+      "afternoon": 6694000,
+      "evening": 287000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3035000,
+        "orders": 21,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 1173000,
+        "orders": 8,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV001": {
+        "revenue": 2760000,
+        "orders": 19,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 2197000,
+        "orders": 15,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV005": {
+        "revenue": 287000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-06",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 9263000,
+    "target_pct": 0.10068478260869565,
+    "traffic": 247,
+    "num_transactions": 64,
+    "conversion_rate": 0.2591093117408907,
+    "aov": 144734.375,
+    "category_revenue": {
+      "accessory": 9263000
+    },
+    "customer_type_count": {
+      "couple": 19,
+      "female_solo": 16,
+      "family": 6,
+      "gift_buyer": 14,
+      "male_solo": 9
+    },
+    "shift_revenue": {
+      "morning": 3032000,
+      "afternoon": 6231000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2897000,
+        "orders": 20,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV004": {
+        "revenue": 2316000,
+        "orders": 16,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 863000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 1746000,
+        "orders": 12,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 1441000,
+        "orders": 10,
+        "name": "Trần Thị Bảo Ngọc"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-07",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 7338000,
+    "target_pct": 0.07976086956521738,
+    "traffic": 225,
+    "num_transactions": 50,
+    "conversion_rate": 0.2222222222222222,
+    "aov": 146760.0,
+    "category_revenue": {
+      "accessory": 7338000
+    },
+    "customer_type_count": {
+      "female_solo": 18,
+      "couple": 18,
+      "gift_buyer": 7,
+      "male_solo": 5,
+      "family": 2
+    },
+    "shift_revenue": {
+      "morning": 2505000,
+      "afternoon": 4111000,
+      "evening": 722000
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 1032000,
+        "orders": 7,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 2374000,
+        "orders": 16,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV003": {
+        "revenue": 1743000,
+        "orders": 12,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV005": {
+        "revenue": 1155000,
+        "orders": 8,
+        "name": "Phạm Ngọc Hân"
+      },
+      "NV002": {
+        "revenue": 737000,
+        "orders": 5,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 297000,
+        "orders": 2,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004",
+      "NV005"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV005"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-08",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 5821000,
+    "target_pct": 0.06327173913043478,
+    "traffic": 132,
+    "num_transactions": 40,
+    "conversion_rate": 0.30303030303030304,
+    "aov": 145525.0,
+    "category_revenue": {
+      "accessory": 5821000
+    },
+    "customer_type_count": {
+      "male_solo": 4,
+      "couple": 18,
+      "female_solo": 15,
+      "gift_buyer": 3
+    },
+    "shift_revenue": {
+      "morning": 2614000,
+      "afternoon": 3207000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 1737000,
+        "orders": 12,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 2042000,
+        "orders": 14,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 726000,
+        "orders": 5,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 1316000,
+        "orders": 9,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-09",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6125000,
+    "target_pct": 0.06657608695652174,
+    "traffic": 169,
+    "num_transactions": 42,
+    "conversion_rate": 0.2485207100591716,
+    "aov": 145833.33333333334,
+    "category_revenue": {
+      "accessory": 6125000
+    },
+    "customer_type_count": {
+      "female_solo": 10,
+      "couple": 17,
+      "gift_buyer": 3,
+      "male_solo": 11,
+      "family": 1
+    },
+    "shift_revenue": {
+      "morning": 2484000,
+      "afternoon": 3641000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 1895000,
+        "orders": 13,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV003": {
+        "revenue": 1763000,
+        "orders": 12,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 1587000,
+        "orders": 11,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 880000,
+        "orders": 6,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-10",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 7299000,
+    "target_pct": 0.07933695652173912,
+    "traffic": 168,
+    "num_transactions": 50,
+    "conversion_rate": 0.2976190476190476,
+    "aov": 145980.0,
+    "category_revenue": {
+      "accessory": 7299000
+    },
+    "customer_type_count": {
+      "male_solo": 9,
+      "female_solo": 21,
+      "family": 6,
+      "couple": 5,
+      "gift_buyer": 9
+    },
+    "shift_revenue": {
+      "morning": 2498000,
+      "afternoon": 3786000,
+      "evening": 1015000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 2637000,
+        "orders": 18,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 1176000,
+        "orders": 8,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 1467000,
+        "orders": 10,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 1292000,
+        "orders": 9,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 727000,
+        "orders": 5,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-11",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 6941000,
+    "target_pct": 0.07544565217391304,
+    "traffic": 164,
+    "num_transactions": 48,
+    "conversion_rate": 0.2926829268292683,
+    "aov": 144604.16666666666,
+    "category_revenue": {
+      "accessory": 6941000
+    },
+    "customer_type_count": {
+      "female_solo": 19,
+      "gift_buyer": 8,
+      "male_solo": 8,
+      "couple": 6,
+      "family": 7
+    },
+    "shift_revenue": {
+      "morning": 2324000,
+      "afternoon": 4470000,
+      "evening": 147000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 3629000,
+        "orders": 25,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 572000,
+        "orders": 4,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV004": {
+        "revenue": 1441000,
+        "orders": 10,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 1152000,
+        "orders": 8,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Huỳnh Thị Thu Hương"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-15",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 7013000,
+    "target_pct": 0.08250588235294118,
+    "traffic": 185,
+    "num_transactions": 48,
+    "conversion_rate": 0.2594594594594595,
+    "aov": 146104.16666666666,
+    "category_revenue": {
+      "accessory": 7013000
+    },
+    "customer_type_count": {
+      "female_solo": 14,
+      "couple": 16,
+      "male_solo": 9,
+      "gift_buyer": 5,
+      "family": 4
+    },
+    "shift_revenue": {
+      "morning": 3189000,
+      "afternoon": 2939000,
+      "evening": 885000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 2192000,
+        "orders": 15,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 997000,
+        "orders": 7,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 1184000,
+        "orders": 8,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV012": {
+        "revenue": 740000,
+        "orders": 5,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 1015000,
+        "orders": 7,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 885000,
+        "orders": 6,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV012",
+      "NV013",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-16",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 9068000,
+    "target_pct": 0.10668235294117646,
+    "traffic": 250,
+    "num_transactions": 62,
+    "conversion_rate": 0.248,
+    "aov": 146258.06451612903,
+    "category_revenue": {
+      "accessory": 9068000
+    },
+    "customer_type_count": {
+      "male_solo": 7,
+      "female_solo": 19,
+      "couple": 20,
+      "gift_buyer": 12,
+      "family": 4
+    },
+    "shift_revenue": {
+      "morning": 3053000,
+      "afternoon": 5718000,
+      "evening": 297000
+    },
+    "staff_performance": {
+      "NV012": {
+        "revenue": 2622000,
+        "orders": 18,
+        "name": "Ngô Văn Hải"
+      },
+      "NV010": {
+        "revenue": 1315000,
+        "orders": 9,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 3375000,
+        "orders": 23,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1312000,
+        "orders": 9,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 297000,
+        "orders": 2,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV011",
+      "NV013",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-17",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 10338000,
+    "target_pct": 0.1216235294117647,
+    "traffic": 247,
+    "num_transactions": 71,
+    "conversion_rate": 0.2874493927125506,
+    "aov": 145605.6338028169,
+    "category_revenue": {
+      "accessory": 10338000
+    },
+    "customer_type_count": {
+      "male_solo": 11,
+      "couple": 12,
+      "family": 10,
+      "female_solo": 29,
+      "gift_buyer": 9
+    },
+    "shift_revenue": {
+      "morning": 3934000,
+      "afternoon": 5973000,
+      "evening": 431000
+    },
+    "staff_performance": {
+      "NV012": {
+        "revenue": 3229000,
+        "orders": 22,
+        "name": "Ngô Văn Hải"
+      },
+      "NV011": {
+        "revenue": 3184000,
+        "orders": 22,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1739000,
+        "orders": 12,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV009": {
+        "revenue": 1755000,
+        "orders": 12,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 293000,
+        "orders": 2,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 138000,
+        "orders": 1,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV011",
+      "NV010",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV013",
+      "NV014"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-18",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6317000,
+    "target_pct": 0.07431764705882353,
+    "traffic": 136,
+    "num_transactions": 43,
+    "conversion_rate": 0.3161764705882353,
+    "aov": 146906.97674418605,
+    "category_revenue": {
+      "accessory": 6317000
+    },
+    "customer_type_count": {
+      "female_solo": 13,
+      "couple": 12,
+      "family": 6,
+      "gift_buyer": 7,
+      "male_solo": 5
+    },
+    "shift_revenue": {
+      "morning": 2201000,
+      "afternoon": 3673000,
+      "evening": 443000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 2645000,
+        "orders": 18,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 888000,
+        "orders": 6,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV009": {
+        "revenue": 1473000,
+        "orders": 10,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 868000,
+        "orders": 6,
+        "name": "Lý Thành Đạt"
+      },
+      "NV012": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Ngô Văn Hải"
+      },
+      "NV013": {
+        "revenue": 296000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV010",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV013",
+      "NV012"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-19",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 5505000,
+    "target_pct": 0.06476470588235295,
+    "traffic": 180,
+    "num_transactions": 38,
+    "conversion_rate": 0.2111111111111111,
+    "aov": 144868.42105263157,
+    "category_revenue": {
+      "accessory": 5505000
+    },
+    "customer_type_count": {
+      "couple": 12,
+      "female_solo": 11,
+      "gift_buyer": 4,
+      "male_solo": 5,
+      "family": 6
+    },
+    "shift_revenue": {
+      "morning": 1758000,
+      "afternoon": 3747000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 872000,
+        "orders": 6,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 886000,
+        "orders": 6,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 1423000,
+        "orders": 10,
+        "name": "Ngô Văn Hải"
+      },
+      "NV013": {
+        "revenue": 433000,
+        "orders": 3,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1891000,
+        "orders": 13,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV012",
+      "NV014",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-20",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6859000,
+    "target_pct": 0.08069411764705882,
+    "traffic": 174,
+    "num_transactions": 47,
+    "conversion_rate": 0.27011494252873564,
+    "aov": 145936.17021276595,
+    "category_revenue": {
+      "accessory": 6859000
+    },
+    "customer_type_count": {
+      "female_solo": 23,
+      "couple": 6,
+      "male_solo": 6,
+      "family": 4,
+      "gift_buyer": 8
+    },
+    "shift_revenue": {
+      "morning": 2455000,
+      "afternoon": 3668000,
+      "evening": 736000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 1876000,
+        "orders": 13,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2333000,
+        "orders": 16,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 877000,
+        "orders": 6,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 1037000,
+        "orders": 7,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 442000,
+        "orders": 3,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV013": {
+        "revenue": 294000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV011",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV013"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-21",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6964000,
+    "target_pct": 0.08192941176470588,
+    "traffic": 185,
+    "num_transactions": 48,
+    "conversion_rate": 0.2594594594594595,
+    "aov": 145083.33333333334,
+    "category_revenue": {
+      "accessory": 6964000
+    },
+    "customer_type_count": {
+      "female_solo": 14,
+      "couple": 13,
+      "male_solo": 13,
+      "gift_buyer": 5,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 2610000,
+      "afternoon": 3924000,
+      "evening": 430000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 3339000,
+        "orders": 23,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1446000,
+        "orders": 10,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV014": {
+        "revenue": 1159000,
+        "orders": 8,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 590000,
+        "orders": 4,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV009": {
+        "revenue": 136000,
+        "orders": 1,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV012": {
+        "revenue": 294000,
+        "orders": 2,
+        "name": "Ngô Văn Hải"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV013",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV012"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-22",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 8216000,
+    "target_pct": 0.09665882352941177,
+    "traffic": 189,
+    "num_transactions": 56,
+    "conversion_rate": 0.2962962962962963,
+    "aov": 146714.2857142857,
+    "category_revenue": {
+      "accessory": 8216000
+    },
+    "customer_type_count": {
+      "family": 2,
+      "couple": 17,
+      "male_solo": 11,
+      "gift_buyer": 4,
+      "female_solo": 22
+    },
+    "shift_revenue": {
+      "morning": 3375000,
+      "afternoon": 3954000,
+      "evening": 887000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 2205000,
+        "orders": 15,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2037000,
+        "orders": 14,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 1034000,
+        "orders": 7,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 2053000,
+        "orders": 14,
+        "name": "Lý Thành Đạt"
+      },
+      "NV012": {
+        "revenue": 149000,
+        "orders": 1,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 738000,
+        "orders": 5,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV011",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV012"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-23",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 11627000,
+    "target_pct": 0.13678823529411765,
+    "traffic": 252,
+    "num_transactions": 79,
+    "conversion_rate": 0.3134920634920635,
+    "aov": 147177.21518987342,
+    "category_revenue": {
+      "accessory": 11627000
+    },
+    "customer_type_count": {
+      "male_solo": 13,
+      "female_solo": 16,
+      "family": 4,
+      "couple": 32,
+      "gift_buyer": 14
+    },
+    "shift_revenue": {
+      "morning": 5159000,
+      "afternoon": 6322000,
+      "evening": 146000
+    },
+    "staff_performance": {
+      "NV012": {
+        "revenue": 1766000,
+        "orders": 12,
+        "name": "Ngô Văn Hải"
+      },
+      "NV011": {
+        "revenue": 2817000,
+        "orders": 19,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 4407000,
+        "orders": 30,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV009": {
+        "revenue": 1758000,
+        "orders": 12,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV013": {
+        "revenue": 733000,
+        "orders": 5,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV011",
+      "NV010",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV014"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-24",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 10966000,
+    "target_pct": 0.12901176470588235,
+    "traffic": 258,
+    "num_transactions": 75,
+    "conversion_rate": 0.29069767441860467,
+    "aov": 146213.33333333334,
+    "category_revenue": {
+      "accessory": 10966000
+    },
+    "customer_type_count": {
+      "couple": 23,
+      "female_solo": 25,
+      "male_solo": 14,
+      "gift_buyer": 8,
+      "family": 5
+    },
+    "shift_revenue": {
+      "morning": 3511000,
+      "afternoon": 7158000,
+      "evening": 297000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 2924000,
+        "orders": 20,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 3355000,
+        "orders": 23,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 1172000,
+        "orders": 8,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 1599000,
+        "orders": 11,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 1619000,
+        "orders": 11,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV013": {
+        "revenue": 297000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV010",
+      "NV011",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV013"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-25",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 5712000,
+    "target_pct": 0.0672,
+    "traffic": 132,
+    "num_transactions": 39,
+    "conversion_rate": 0.29545454545454547,
+    "aov": 146461.53846153847,
+    "category_revenue": {
+      "accessory": 5712000
+    },
+    "customer_type_count": {
+      "male_solo": 12,
+      "female_solo": 7,
+      "couple": 14,
+      "gift_buyer": 5,
+      "family": 1
+    },
+    "shift_revenue": {
+      "morning": 1912000,
+      "afternoon": 3207000,
+      "evening": 593000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 1027000,
+        "orders": 7,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 885000,
+        "orders": 6,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV014": {
+        "revenue": 1306000,
+        "orders": 9,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 726000,
+        "orders": 5,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV012": {
+        "revenue": 1175000,
+        "orders": 8,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 593000,
+        "orders": 4,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV012",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-26",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 7767000,
+    "target_pct": 0.0913764705882353,
+    "traffic": 201,
+    "num_transactions": 53,
+    "conversion_rate": 0.263681592039801,
+    "aov": 146547.16981132075,
+    "category_revenue": {
+      "accessory": 7767000
+    },
+    "customer_type_count": {
+      "male_solo": 14,
+      "couple": 14,
+      "female_solo": 14,
+      "family": 5,
+      "gift_buyer": 6
+    },
+    "shift_revenue": {
+      "morning": 3350000,
+      "afternoon": 3820000,
+      "evening": 597000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 2929000,
+        "orders": 20,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 2041000,
+        "orders": 14,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV013": {
+        "revenue": 726000,
+        "orders": 5,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1474000,
+        "orders": 10,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 448000,
+        "orders": 3,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV012": {
+        "revenue": 149000,
+        "orders": 1,
+        "name": "Ngô Văn Hải"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV011",
+      "NV014",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV012"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-27",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 7705000,
+    "target_pct": 0.09064705882352941,
+    "traffic": 164,
+    "num_transactions": 53,
+    "conversion_rate": 0.3231707317073171,
+    "aov": 145377.35849056602,
+    "category_revenue": {
+      "accessory": 7705000
+    },
+    "customer_type_count": {
+      "female_solo": 18,
+      "couple": 17,
+      "family": 2,
+      "gift_buyer": 9,
+      "male_solo": 7
+    },
+    "shift_revenue": {
+      "morning": 3069000,
+      "afternoon": 3916000,
+      "evening": 720000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 3942000,
+        "orders": 27,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 871000,
+        "orders": 6,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV009": {
+        "revenue": 1591000,
+        "orders": 11,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV012": {
+        "revenue": 581000,
+        "orders": 4,
+        "name": "Ngô Văn Hải"
+      },
+      "NV013": {
+        "revenue": 284000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 436000,
+        "orders": 3,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV010",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV014",
+      "NV013"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-28",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 7775000,
+    "target_pct": 0.09147058823529412,
+    "traffic": 179,
+    "num_transactions": 53,
+    "conversion_rate": 0.29608938547486036,
+    "aov": 146698.11320754717,
+    "category_revenue": {
+      "accessory": 7775000
+    },
+    "customer_type_count": {
+      "female_solo": 16,
+      "couple": 17,
+      "family": 4,
+      "male_solo": 5,
+      "gift_buyer": 11
+    },
+    "shift_revenue": {
+      "morning": 2184000,
+      "afternoon": 5148000,
+      "evening": 443000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 873000,
+        "orders": 6,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 3070000,
+        "orders": 21,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 1459000,
+        "orders": 10,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 1930000,
+        "orders": 13,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV013": {
+        "revenue": 294000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 149000,
+        "orders": 1,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV012",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV014",
+      "NV013"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-29",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 5827000,
+    "target_pct": 0.0685529411764706,
+    "traffic": 163,
+    "num_transactions": 40,
+    "conversion_rate": 0.24539877300613497,
+    "aov": 145675.0,
+    "category_revenue": {
+      "accessory": 5827000
+    },
+    "customer_type_count": {
+      "female_solo": 18,
+      "male_solo": 9,
+      "family": 4,
+      "couple": 4,
+      "gift_buyer": 5
+    },
+    "shift_revenue": {
+      "morning": 3058000,
+      "afternoon": 2471000,
+      "evening": 298000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 1605000,
+        "orders": 11,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1453000,
+        "orders": 10,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV012": {
+        "revenue": 718000,
+        "orders": 5,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 1467000,
+        "orders": 10,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 286000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV009": {
+        "revenue": 298000,
+        "orders": 2,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV012",
+      "NV013",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-30",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 8906000,
+    "target_pct": 0.10477647058823529,
+    "traffic": 229,
+    "num_transactions": 61,
+    "conversion_rate": 0.2663755458515284,
+    "aov": 146000.0,
+    "category_revenue": {
+      "accessory": 8906000
+    },
+    "customer_type_count": {
+      "couple": 21,
+      "gift_buyer": 10,
+      "male_solo": 14,
+      "female_solo": 13,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 3177000,
+      "afternoon": 4986000,
+      "evening": 743000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 1305000,
+        "orders": 9,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV012": {
+        "revenue": 2182000,
+        "orders": 15,
+        "name": "Ngô Văn Hải"
+      },
+      "NV011": {
+        "revenue": 1750000,
+        "orders": 12,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV014": {
+        "revenue": 1747000,
+        "orders": 12,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 1179000,
+        "orders": 8,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV009": {
+        "revenue": 743000,
+        "orders": 5,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV013",
+      "NV011",
+      "NV014",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-05-31",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 10250000,
+    "target_pct": 0.12058823529411765,
+    "traffic": 246,
+    "num_transactions": 70,
+    "conversion_rate": 0.2845528455284553,
+    "aov": 146428.57142857142,
+    "category_revenue": {
+      "accessory": 10250000
+    },
+    "customer_type_count": {
+      "couple": 25,
+      "male_solo": 16,
+      "female_solo": 15,
+      "gift_buyer": 11,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 3798000,
+      "afternoon": 5715000,
+      "evening": 737000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 1604000,
+        "orders": 11,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2476000,
+        "orders": 17,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 2651000,
+        "orders": 18,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 1610000,
+        "orders": 11,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV013": {
+        "revenue": 1172000,
+        "orders": 8,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 737000,
+        "orders": 5,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV011",
+      "NV012",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV014"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-01",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 4917000,
+    "target_pct": 0.05784705882352941,
+    "traffic": 135,
+    "num_transactions": 34,
+    "conversion_rate": 0.2518518518518518,
+    "aov": 144617.64705882352,
+    "category_revenue": {
+      "accessory": 4917000
+    },
+    "customer_type_count": {
+      "gift_buyer": 6,
+      "family": 4,
+      "male_solo": 4,
+      "female_solo": 11,
+      "couple": 9
+    },
+    "shift_revenue": {
+      "morning": 2208000,
+      "afternoon": 2296000,
+      "evening": 413000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 434000,
+        "orders": 3,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1774000,
+        "orders": 12,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV009": {
+        "revenue": 1276000,
+        "orders": 9,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 728000,
+        "orders": 5,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 292000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV012": {
+        "revenue": 413000,
+        "orders": 3,
+        "name": "Ngô Văn Hải"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV014",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV012"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-02",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 5990000,
+    "target_pct": 0.07047058823529412,
+    "traffic": 177,
+    "num_transactions": 41,
+    "conversion_rate": 0.23163841807909605,
+    "aov": 146097.56097560975,
+    "category_revenue": {
+      "accessory": 5990000
+    },
+    "customer_type_count": {
+      "female_solo": 14,
+      "male_solo": 6,
+      "couple": 12,
+      "family": 7,
+      "gift_buyer": 2
+    },
+    "shift_revenue": {
+      "morning": 2795000,
+      "afternoon": 2910000,
+      "evening": 285000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 1620000,
+        "orders": 11,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 1175000,
+        "orders": 8,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 718000,
+        "orders": 5,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1476000,
+        "orders": 10,
+        "name": "Lý Thành Đạt"
+      },
+      "NV012": {
+        "revenue": 716000,
+        "orders": 5,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 285000,
+        "orders": 2,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV013",
+      "NV014",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-03",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 8734000,
+    "target_pct": 0.10275294117647059,
+    "traffic": 200,
+    "num_transactions": 60,
+    "conversion_rate": 0.3,
+    "aov": 145566.66666666666,
+    "category_revenue": {
+      "accessory": 8734000
+    },
+    "customer_type_count": {
+      "couple": 19,
+      "gift_buyer": 10,
+      "female_solo": 17,
+      "family": 6,
+      "male_solo": 8
+    },
+    "shift_revenue": {
+      "morning": 2786000,
+      "afternoon": 5655000,
+      "evening": 293000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 1766000,
+        "orders": 12,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 2612000,
+        "orders": 18,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV009": {
+        "revenue": 1765000,
+        "orders": 12,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 2298000,
+        "orders": 16,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV012": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Ngô Văn Hải"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV014",
+      "NV010"
+    ],
+    "evening_staff": [
+      "NV013",
+      "NV012"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-04",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 4236000,
+    "target_pct": 0.04983529411764706,
+    "traffic": 118,
+    "num_transactions": 29,
+    "conversion_rate": 0.2457627118644068,
+    "aov": 146068.9655172414,
+    "category_revenue": {
+      "accessory": 4236000
+    },
+    "customer_type_count": {
+      "family": 4,
+      "female_solo": 14,
+      "gift_buyer": 3,
+      "couple": 4,
+      "male_solo": 4
+    },
+    "shift_revenue": {
+      "morning": 2032000,
+      "afternoon": 2204000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 1456000,
+        "orders": 10,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1019000,
+        "orders": 7,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV014": {
+        "revenue": 732000,
+        "orders": 5,
+        "name": "Lý Thành Đạt"
+      },
+      "NV012": {
+        "revenue": 1029000,
+        "orders": 7,
+        "name": "Ngô Văn Hải"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV011",
+      "NV014",
+      "NV012"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV013"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-05",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 7749000,
+    "target_pct": 0.09116470588235294,
+    "traffic": 182,
+    "num_transactions": 53,
+    "conversion_rate": 0.29120879120879123,
+    "aov": 146207.54716981133,
+    "category_revenue": {
+      "accessory": 7749000
+    },
+    "customer_type_count": {
+      "couple": 22,
+      "family": 2,
+      "female_solo": 12,
+      "gift_buyer": 8,
+      "male_solo": 9
+    },
+    "shift_revenue": {
+      "morning": 2615000,
+      "afternoon": 4404000,
+      "evening": 730000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 1035000,
+        "orders": 7,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2757000,
+        "orders": 19,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 1454000,
+        "orders": 10,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1773000,
+        "orders": 12,
+        "name": "Lý Thành Đạt"
+      },
+      "NV012": {
+        "revenue": 445000,
+        "orders": 3,
+        "name": "Ngô Văn Hải"
+      },
+      "NV009": {
+        "revenue": 285000,
+        "orders": 2,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV014",
+      "NV013",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV012"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-06",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 8198000,
+    "target_pct": 0.09644705882352941,
+    "traffic": 245,
+    "num_transactions": 56,
+    "conversion_rate": 0.22857142857142856,
+    "aov": 146392.85714285713,
+    "category_revenue": {
+      "accessory": 8198000
+    },
+    "customer_type_count": {
+      "couple": 25,
+      "gift_buyer": 9,
+      "female_solo": 10,
+      "male_solo": 9,
+      "family": 3
+    },
+    "shift_revenue": {
+      "morning": 4407000,
+      "afternoon": 3645000,
+      "evening": 146000
+    },
+    "staff_performance": {
+      "NV012": {
+        "revenue": 1907000,
+        "orders": 13,
+        "name": "Ngô Văn Hải"
+      },
+      "NV010": {
+        "revenue": 1630000,
+        "orders": 11,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2617000,
+        "orders": 18,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV013": {
+        "revenue": 583000,
+        "orders": 4,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV014": {
+        "revenue": 1315000,
+        "orders": 9,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 146000,
+        "orders": 1,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV011",
+      "NV014",
+      "NV012",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV009"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-07",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 11854000,
+    "target_pct": 0.13945882352941177,
+    "traffic": 253,
+    "num_transactions": 81,
+    "conversion_rate": 0.3201581027667984,
+    "aov": 146345.67901234567,
+    "category_revenue": {
+      "accessory": 11854000
+    },
+    "customer_type_count": {
+      "couple": 30,
+      "female_solo": 16,
+      "family": 8,
+      "male_solo": 15,
+      "gift_buyer": 12
+    },
+    "shift_revenue": {
+      "morning": 3384000,
+      "afternoon": 7741000,
+      "evening": 729000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 3831000,
+        "orders": 26,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV012": {
+        "revenue": 2505000,
+        "orders": 17,
+        "name": "Ngô Văn Hải"
+      },
+      "NV011": {
+        "revenue": 3497000,
+        "orders": 24,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV009": {
+        "revenue": 1292000,
+        "orders": 9,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 433000,
+        "orders": 3,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 296000,
+        "orders": 2,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011",
+      "NV012"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV012",
+      "NV010",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV014",
+      "NV013"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-08",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6586000,
+    "target_pct": 0.07748235294117647,
+    "traffic": 127,
+    "num_transactions": 45,
+    "conversion_rate": 0.3543307086614173,
+    "aov": 146355.55555555556,
+    "category_revenue": {
+      "accessory": 6586000
+    },
+    "customer_type_count": {
+      "couple": 15,
+      "gift_buyer": 7,
+      "male_solo": 11,
+      "female_solo": 10,
+      "family": 2
+    },
+    "shift_revenue": {
+      "morning": 2923000,
+      "afternoon": 3074000,
+      "evening": 589000
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 2049000,
+        "orders": 14,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 2181000,
+        "orders": 15,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV012": {
+        "revenue": 1177000,
+        "orders": 8,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 590000,
+        "orders": 4,
+        "name": "Lý Thành Đạt"
+      },
+      "NV013": {
+        "revenue": 589000,
+        "orders": 4,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV011",
+      "NV012",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV013",
+      "NV009"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-09",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6686000,
+    "target_pct": 0.07865882352941177,
+    "traffic": 171,
+    "num_transactions": 46,
+    "conversion_rate": 0.26900584795321636,
+    "aov": 145347.8260869565,
+    "category_revenue": {
+      "accessory": 6686000
+    },
+    "customer_type_count": {
+      "female_solo": 13,
+      "couple": 14,
+      "male_solo": 8,
+      "gift_buyer": 9,
+      "family": 2
+    },
+    "shift_revenue": {
+      "morning": 2924000,
+      "afternoon": 3321000,
+      "evening": 441000
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 2043000,
+        "orders": 14,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1765000,
+        "orders": 12,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV013": {
+        "revenue": 1300000,
+        "orders": 9,
+        "name": "Đinh Thị Quỳnh Như"
+      },
+      "NV012": {
+        "revenue": 1137000,
+        "orders": 8,
+        "name": "Ngô Văn Hải"
+      },
+      "NV014": {
+        "revenue": 294000,
+        "orders": 2,
+        "name": "Lý Thành Đạt"
+      },
+      "NV009": {
+        "revenue": 147000,
+        "orders": 1,
+        "name": "Phan Thị Lan Anh"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV012",
+      "NV013",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV009",
+      "NV014"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-10",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6753000,
+    "target_pct": 0.07944705882352941,
+    "traffic": 172,
+    "num_transactions": 46,
+    "conversion_rate": 0.26744186046511625,
+    "aov": 146804.34782608695,
+    "category_revenue": {
+      "accessory": 6753000
+    },
+    "customer_type_count": {
+      "couple": 13,
+      "male_solo": 8,
+      "female_solo": 17,
+      "family": 4,
+      "gift_buyer": 4
+    },
+    "shift_revenue": {
+      "morning": 3081000,
+      "afternoon": 3672000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 1759000,
+        "orders": 12,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 1322000,
+        "orders": 9,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV009": {
+        "revenue": 1919000,
+        "orders": 13,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV012": {
+        "revenue": 745000,
+        "orders": 5,
+        "name": "Ngô Văn Hải"
+      },
+      "NV013": {
+        "revenue": 1008000,
+        "orders": 7,
+        "name": "Đinh Thị Quỳnh Như"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV012",
+      "NV013"
+    ],
+    "evening_staff": [
+      "NV014"
+    ],
+    "day_of_week": "Wednesday",
+    "day_of_week_vn": "Thứ Tư",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-11",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 6898000,
+    "target_pct": 0.0811529411764706,
+    "traffic": 165,
+    "num_transactions": 47,
+    "conversion_rate": 0.28484848484848485,
+    "aov": 146765.95744680852,
+    "category_revenue": {
+      "accessory": 6898000
+    },
+    "customer_type_count": {
+      "female_solo": 11,
+      "male_solo": 11,
+      "couple": 18,
+      "family": 4,
+      "gift_buyer": 3
+    },
+    "shift_revenue": {
+      "morning": 2210000,
+      "afternoon": 4688000,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV010": {
+        "revenue": 3658000,
+        "orders": 25,
+        "name": "Hoàng Đức Việt"
+      },
+      "NV011": {
+        "revenue": 597000,
+        "orders": 4,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV009": {
+        "revenue": 1759000,
+        "orders": 12,
+        "name": "Phan Thị Lan Anh"
+      },
+      "NV014": {
+        "revenue": 884000,
+        "orders": 6,
+        "name": "Lý Thành Đạt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV010",
+      "NV014"
+    ],
+    "evening_staff": [
+      "NV012",
+      "NV013"
+    ],
+    "day_of_week": "Thursday",
+    "day_of_week_vn": "Thứ Năm",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-12",
+    "store_id": "STR-001",
+    "target": 85000000,
+    "revenue": 20066000,
+    "target_pct": 0.23607058823529412,
+    "traffic": 10,
+    "num_transactions": 4,
+    "conversion_rate": 0.4,
+    "aov": 5016500.0,
+    "category_revenue": {
+      "bracelet": 16882000,
+      "fashion_ring": 3184000
+    },
+    "customer_type_count": {
+      "male_solo": 1,
+      "female_solo": 3
+    },
+    "shift_revenue": {
+      "morning": 20066000,
+      "afternoon": 0,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV011": {
+        "revenue": 14144000,
+        "orders": 3,
+        "name": "Trịnh Thị Mai Linh"
+      },
+      "NV010": {
+        "revenue": 5922000,
+        "orders": 1,
+        "name": "Hoàng Đức Việt"
+      }
+    },
+    "morning_staff": [
+      "NV010",
+      "NV011"
+    ],
+    "afternoon_staff": [
+      "NV009",
+      "NV013",
+      "NV011"
+    ],
+    "evening_staff": [
+      "NV014",
+      "NV012"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": true
+  },
+  {
+    "date": "2026-06-12",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 39068000,
+    "target_pct": 0.4246521739130435,
+    "traffic": 25,
+    "num_transactions": 7,
+    "conversion_rate": 0.28,
+    "aov": 5581142.857142857,
+    "category_revenue": {
+      "accessory": 376000,
+      "earring": 3984000,
+      "necklace": 16734000,
+      "bracelet": 10812000,
+      "engagement_ring": 7162000
+    },
+    "customer_type_count": {
+      "gift_buyer": 1,
+      "family": 2,
+      "male_solo": 1,
+      "female_solo": 2,
+      "couple": 1
+    },
+    "shift_revenue": {
+      "morning": 39068000,
+      "afternoon": 0,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 24091000,
+        "orders": 5,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV001": {
+        "revenue": 14977000,
+        "orders": 2,
+        "name": "Trần Thị Bảo Ngọc"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Friday",
+    "day_of_week_vn": "Thứ Sáu",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": true
+  },
+  {
+    "date": "2026-06-13",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 348639000,
+    "target_pct": 3.789554347826087,
+    "traffic": 235,
+    "num_transactions": 60,
+    "conversion_rate": 0.2553191489361702,
+    "aov": 5810650.0,
+    "category_revenue": {
+      "engagement_ring": 67183000,
+      "fashion_ring": 33415000,
+      "wedding_ring": 151628000,
+      "necklace": 48094000,
+      "bracelet": 35485000,
+      "earring": 12165000,
+      "accessory": 669000
+    },
+    "customer_type_count": {
+      "couple": 26,
+      "gift_buyer": 7,
+      "female_solo": 12,
+      "family": 5,
+      "male_solo": 10
+    },
+    "shift_revenue": {
+      "morning": 140923000,
+      "afternoon": 187450000,
+      "evening": 20266000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 142215000,
+        "orders": 23,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV004": {
+        "revenue": 85486000,
+        "orders": 12,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV002": {
+        "revenue": 29347000,
+        "orders": 8,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV001": {
+        "revenue": 30451000,
+        "orders": 8,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV007": {
+        "revenue": 40874000,
+        "orders": 6,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV006": {
+        "revenue": 15193000,
+        "orders": 1,
+        "name": "Đỗ Văn Quang"
+      },
+      "NV005": {
+        "revenue": 5073000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "day_of_week": "Saturday",
+    "day_of_week_vn": "Thứ Bảy",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-14",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 377504000,
+    "target_pct": 4.103304347826087,
+    "traffic": 247,
+    "num_transactions": 73,
+    "conversion_rate": 0.29554655870445345,
+    "aov": 5171287.671232876,
+    "category_revenue": {
+      "bracelet": 40018000,
+      "necklace": 63147000,
+      "earring": 42877000,
+      "wedding_ring": 152477000,
+      "fashion_ring": 32762000,
+      "accessory": 779000,
+      "engagement_ring": 45444000
+    },
+    "customer_type_count": {
+      "male_solo": 11,
+      "female_solo": 27,
+      "family": 5,
+      "couple": 27,
+      "gift_buyer": 3
+    },
+    "shift_revenue": {
+      "morning": 144290000,
+      "afternoon": 213360000,
+      "evening": 19854000
+    },
+    "staff_performance": {
+      "NV002": {
+        "revenue": 42130000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV004": {
+        "revenue": 98200000,
+        "orders": 22,
+        "name": "Võ Thanh Tùng"
+      },
+      "NV003": {
+        "revenue": 92953000,
+        "orders": 17,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV007": {
+        "revenue": 70273000,
+        "orders": 14,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 54094000,
+        "orders": 9,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV006": {
+        "revenue": 18752000,
+        "orders": 4,
+        "name": "Đỗ Văn Quang"
+      },
+      "NV005": {
+        "revenue": 1102000,
+        "orders": 1,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV005",
+      "NV006"
+    ],
+    "day_of_week": "Sunday",
+    "day_of_week_vn": "Chủ Nhật",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-15",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 185378000,
+    "target_pct": 2.014978260869565,
+    "traffic": 121,
+    "num_transactions": 46,
+    "conversion_rate": 0.38016528925619836,
+    "aov": 4029956.5217391304,
+    "category_revenue": {
+      "fashion_ring": 38229000,
+      "bracelet": 41556000,
+      "necklace": 57793000,
+      "earring": 23503000,
+      "accessory": 1242000,
+      "wedding_ring": 23055000
+    },
+    "customer_type_count": {
+      "gift_buyer": 4,
+      "couple": 6,
+      "family": 4,
+      "female_solo": 24,
+      "male_solo": 8
+    },
+    "shift_revenue": {
+      "morning": 80415000,
+      "afternoon": 97742000,
+      "evening": 7221000
+    },
+    "staff_performance": {
+      "NV003": {
+        "revenue": 81367000,
+        "orders": 18,
+        "name": "Nguyễn Phương Thảo"
+      },
+      "NV002": {
+        "revenue": 23173000,
+        "orders": 6,
+        "name": "Lê Hoàng Minh Khôi"
+      },
+      "NV007": {
+        "revenue": 34577000,
+        "orders": 9,
+        "name": "Huỳnh Thị Thu Hương"
+      },
+      "NV001": {
+        "revenue": 39040000,
+        "orders": 11,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV005": {
+        "revenue": 7221000,
+        "orders": 2,
+        "name": "Phạm Ngọc Hân"
+      }
+    },
+    "morning_staff": [
+      "NV002",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV001",
+      "NV007",
+      "NV003"
+    ],
+    "evening_staff": [
+      "NV004",
+      "NV005"
+    ],
+    "day_of_week": "Monday",
+    "day_of_week_vn": "Thứ Hai",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": false
+  },
+  {
+    "date": "2026-06-16",
+    "store_id": "STR-002",
+    "target": 92000000,
+    "revenue": 5838000,
+    "target_pct": 0.06345652173913044,
+    "traffic": 10,
+    "num_transactions": 4,
+    "conversion_rate": 0.4,
+    "aov": 1459500.0,
+    "category_revenue": {
+      "fashion_ring": 4384000,
+      "bracelet": 959000,
+      "accessory": 495000
+    },
+    "customer_type_count": {
+      "gift_buyer": 1,
+      "female_solo": 1,
+      "male_solo": 2
+    },
+    "shift_revenue": {
+      "morning": 5838000,
+      "afternoon": 0,
+      "evening": 0
+    },
+    "staff_performance": {
+      "NV001": {
+        "revenue": 5343000,
+        "orders": 2,
+        "name": "Trần Thị Bảo Ngọc"
+      },
+      "NV003": {
+        "revenue": 495000,
+        "orders": 2,
+        "name": "Nguyễn Phương Thảo"
+      }
+    },
+    "morning_staff": [
+      "NV001",
+      "NV003"
+    ],
+    "afternoon_staff": [
+      "NV002",
+      "NV003",
+      "NV004"
+    ],
+    "evening_staff": [
+      "NV007",
+      "NV004"
+    ],
+    "day_of_week": "Tuesday",
+    "day_of_week_vn": "Thứ Ba",
+    "is_special_day": false,
+    "special_day_multiplier": 1.0,
+    "simulated": true,
+    "is_partial_day": true
   }
 ]

@@ -51,6 +51,56 @@
       "role": "assistant",
       "content": "Hôm nay, chúng ta nên tập trung vào các SKU có doanh thu cao và có khả năng tăng trưởng trong thời gian còn lại của ngày. Cụ thể, nên chú trọng vào:\n\n1. **Nhẫn đính hôn**: Đây là sản phẩm có doanh thu cao nhất (23.8 triệu đồng, chiếm 32.7% tổng doanh thu). Chúng ta có thể tạo ra các chương trình khuyến mãi hoặc trưng bày nổi bật để thu hút khách hàng.\n\n2. **Dây chuyền**: Sản phẩm này cũng có doanh thu đáng kể (20.9 triệu đồng, chiếm 28.7% tổng doanh thu). Có thể giới thiệu các mẫu mới hoặc các ưu đãi đặc biệt.\n\n3. **Bông tai**: Với doanh thu 14.2 triệu đồng (19.4% tổng doanh thu), đây cũng là một sản phẩm nên được chú ý, đặc biệt là với nhóm khách nữ độc thân.\n\nNgoài ra, cần lưu ý đến việc khuyến khích khách hàng mua trả góp do AOV hiện tại thấp. Điều này có thể giúp tăng giá trị đơn hàng và cải thiện doanh thu cuối ngày.",
       "timestamp": "2026-05-14 15:44:17"
+    },
+    {
+      "role": "user",
+      "content": "doanh thu hiện tại ngày hôm nay là bao nhiêu",
+      "timestamp": "2026-06-12 10:55:36"
+    },
+    {
+      "role": "assistant",
+      "content": "Doanh thu hiện tại của cửa hàng hôm nay là 72.85 triệu đồng.",
+      "timestamp": "2026-06-12 10:55:39"
+    },
+    {
+      "role": "user",
+      "content": "doanh thu hôm nay như thế nào nói chi tiết",
+      "timestamp": "2026-06-12 11:07:50"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm nay, ngày 12 tháng 6 năm 2026, doanh thu hiện tại của cửa hàng PNJ Parkson Cantavil là 12.76 triệu đồng, đạt 13.9% so với mục tiêu doanh thu ngày là 92 triệu đồng. Dự báo doanh thu cuối ngày (EOD) ước tính sẽ đạt khoảng 55.5 triệu đồng, tương đương 60% mục tiêu.\n\nCơ cấu doanh thu theo sản phẩm cho thấy rằng bông tai đóng góp 68% với 8.7 triệu đồng, trong khi lắc tay chiếm 32% với 4.1 triệu đồng. Tuy nhiên, nhẫn cưới và nhẫn đính hôn không có doanh thu nào, mặc dù nhóm khách cặp đôi chiếm 50% lượt khách. \n\nTỷ lệ chuyển đổi (CR) hiện tại là 18.2%, thấp hơn so với mức trung bình 26.8% trong 14 ngày qua. Tổng số lượt khách hôm nay là 11 lượt, thấp hơn so với mức trung bình 172 lượt trong 14 ngày qua. \n\nCần có các biện pháp khuyến khích để tăng doanh thu trong ca chiều và cải thiện tỷ lệ chuyển đổi.",
+      "timestamp": "2026-06-12 11:07:56"
+    },
+    {
+      "role": "user",
+      "content": "Hiện giờ ai là người đang trực",
+      "timestamp": "2026-06-16 10:05:47"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm nay, từ 09:00 đến 10:05, có hai nhân viên đang trực tại cửa hàng PNJ Parkson Cantavil (STR-002):\n\n- Trần Thị Bảo Ngọc\n- Nguyễn Phương Thảo\n\nCả hai đều đang làm việc trong ca sáng.",
+      "timestamp": "2026-06-16 10:05:54"
+    },
+    {
+      "role": "user",
+      "content": "ai là senior đang trực tại cửa hàng",
+      "timestamp": "2026-06-16 10:06:46"
+    },
+    {
+      "role": "assistant",
+      "content": "Hiện tại, trong ca sáng hôm nay, ngày 16 tháng 6 năm 2026, có hai nhân viên đang trực tại cửa hàng PNJ Parkson Cantavil (STR-002):\n\n- Trần Thị Bảo Ngọc\n- Nguyễn Phương Thảo\n\nTrong đó, Trần Thị Bảo Ngọc là nhân viên có doanh thu cao nhất với 5.3 triệu đồng.",
+      "timestamp": "2026-06-16 10:06:50"
+    },
+    {
+      "role": "user",
+      "content": "Bảo Ngọc hôm qua làm ca nào và kết quả ra sao?",
+      "timestamp": "2026-06-16 11:16:32"
+    },
+    {
+      "role": "assistant",
+      "content": "Hôm qua, ngày 15 tháng 6 năm 2026, Trần Thị Bảo Ngọc làm việc trong ca sáng. Kết quả doanh thu của cô trong ca sáng là 39.0 triệu đồng với 11 đơn hàng. Tổng doanh thu của cửa hàng trong ngày hôm đó đạt 185.38 triệu đồng, vượt xa mục tiêu 92 triệu đồng, đạt 201.5% target.",
+      "timestamp": "2026-06-16 11:16:36"
     }
   ],
   "STR-006": [

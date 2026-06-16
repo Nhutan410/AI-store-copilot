@@ -2,7 +2,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NC-218",
-    "stock": 0,
+    "stock": 3,
     "display_position": "front",
     "cvr_local": 0.521,
     "last_sold_date": "2026-05-09"
@@ -10,7 +10,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NC-305",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.414,
     "last_sold_date": "2026-05-09"
@@ -18,7 +18,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NC-401",
-    "stock": 0,
+    "stock": 2,
     "display_position": "vault",
     "cvr_local": 0.323,
     "last_sold_date": "2026-05-06"
@@ -26,7 +26,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NC-156",
-    "stock": 0,
+    "stock": 3,
     "display_position": "front",
     "cvr_local": 0.564,
     "last_sold_date": "2026-05-11"
@@ -34,7 +34,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NC-520",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.49,
     "last_sold_date": "2026-05-09"
@@ -42,7 +42,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "ND-112",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.335,
     "last_sold_date": "2026-05-11"
@@ -50,7 +50,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "ND-089",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.424,
     "last_sold_date": "2026-05-10"
@@ -58,7 +58,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "ND-200",
-    "stock": 0,
+    "stock": 3,
     "display_position": "front",
     "cvr_local": 0.544,
     "last_sold_date": "2026-05-12"
@@ -66,7 +66,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NT-301",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.481,
     "last_sold_date": "2026-05-11"
@@ -74,7 +74,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "NT-145",
-    "stock": 0,
+    "stock": 8,
     "display_position": "standard",
     "cvr_local": 0.624,
     "last_sold_date": "2026-05-13"
@@ -82,15 +82,15 @@
   {
     "store_id": "STR-001",
     "sku_id": "NT-267",
-    "stock": 0,
+    "stock": 4,
     "display_position": "standard",
     "cvr_local": 0.532,
-    "last_sold_date": "2026-05-13"
+    "last_sold_date": "2026-06-12"
   },
   {
     "store_id": "STR-001",
     "sku_id": "LC-201",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.531,
     "last_sold_date": "2026-05-11"
@@ -98,15 +98,15 @@
   {
     "store_id": "STR-001",
     "sku_id": "LC-388",
-    "stock": 0,
+    "stock": 1,
     "display_position": "standard",
     "cvr_local": 0.475,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-12"
   },
   {
     "store_id": "STR-001",
     "sku_id": "LC-102",
-    "stock": 0,
+    "stock": 8,
     "display_position": "standard",
     "cvr_local": 0.711,
     "last_sold_date": "2026-05-11"
@@ -114,15 +114,15 @@
   {
     "store_id": "STR-001",
     "sku_id": "LC-450",
-    "stock": 0,
+    "stock": 2,
     "display_position": "standard",
     "cvr_local": 0.484,
-    "last_sold_date": "2026-05-09"
+    "last_sold_date": "2026-06-12"
   },
   {
     "store_id": "STR-001",
     "sku_id": "DC-105",
-    "stock": 0,
+    "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.442,
     "last_sold_date": "2026-05-09"
@@ -130,7 +130,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DC-218",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.612,
     "last_sold_date": "2026-05-10"
@@ -138,7 +138,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DC-076",
-    "stock": 0,
+    "stock": 8,
     "display_position": "standard",
     "cvr_local": 0.718,
     "last_sold_date": "2026-05-11"
@@ -146,7 +146,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DC-330",
-    "stock": 0,
+    "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.468,
     "last_sold_date": "2026-05-09"
@@ -154,7 +154,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "BT-088",
-    "stock": 0,
+    "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.48,
     "last_sold_date": "2026-05-12"
@@ -162,7 +162,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "BT-201",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.597,
     "last_sold_date": "2026-05-09"
@@ -170,7 +170,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "BT-055",
-    "stock": 0,
+    "stock": 8,
     "display_position": "standard",
     "cvr_local": 0.748,
     "last_sold_date": "2026-05-14"
@@ -178,7 +178,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "BT-312",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.57,
     "last_sold_date": "2026-05-13"
@@ -186,7 +186,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DH-Longines-L45",
-    "stock": 0,
+    "stock": 2,
     "display_position": "vault",
     "cvr_local": 0.324,
     "last_sold_date": "2026-05-13"
@@ -194,7 +194,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DH-Tissot-T01",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.352,
     "last_sold_date": "2026-05-14"
@@ -202,7 +202,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "DH-Citizen-BM",
-    "stock": 0,
+    "stock": 3,
     "display_position": "front",
     "cvr_local": 0.441,
     "last_sold_date": "2026-05-14"
@@ -210,7 +210,7 @@
   {
     "store_id": "STR-001",
     "sku_id": "PK-001",
-    "stock": 0,
+    "stock": 8,
     "display_position": "standard",
     "cvr_local": 0.824,
     "last_sold_date": "2026-05-14"
@@ -226,66 +226,66 @@
   {
     "store_id": "STR-002",
     "sku_id": "NC-218",
-    "stock": 0,
+    "stock": 3,
     "display_position": "front",
     "cvr_local": 0.453,
-    "last_sold_date": "2026-05-08"
+    "last_sold_date": "2026-06-14"
   },
   {
     "store_id": "STR-002",
     "sku_id": "NC-305",
-    "stock": 0,
+    "stock": 1,
     "display_position": "front",
     "cvr_local": 0.432,
-    "last_sold_date": "2026-05-08"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "NC-401",
-    "stock": 0,
+    "stock": 2,
     "display_position": "vault",
     "cvr_local": 0.295,
-    "last_sold_date": "2026-05-06"
+    "last_sold_date": "2026-06-14"
   },
   {
     "store_id": "STR-002",
     "sku_id": "NC-156",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.566,
-    "last_sold_date": "2026-05-08"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "NC-520",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.454,
-    "last_sold_date": "2026-05-08"
+    "last_sold_date": "2026-06-14"
   },
   {
     "store_id": "STR-002",
     "sku_id": "ND-112",
-    "stock": 0,
+    "stock": 1,
     "display_position": "vault",
     "cvr_local": 0.347,
-    "last_sold_date": "2026-05-09"
+    "last_sold_date": "2026-06-13"
   },
   {
     "store_id": "STR-002",
     "sku_id": "ND-089",
-    "stock": 0,
+    "stock": 2,
     "display_position": "standard",
     "cvr_local": 0.415,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-14"
   },
   {
     "store_id": "STR-002",
     "sku_id": "ND-200",
-    "stock": 0,
+    "stock": 1,
     "display_position": "standard",
     "cvr_local": 0.507,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-14"
   },
   {
     "store_id": "STR-002",
@@ -293,15 +293,15 @@
     "stock": 0,
     "display_position": "front",
     "cvr_local": 0.622,
-    "last_sold_date": "2026-05-11"
+    "last_sold_date": "2026-06-16"
   },
   {
     "store_id": "STR-002",
     "sku_id": "NT-145",
-    "stock": 0,
+    "stock": 6,
     "display_position": "front",
     "cvr_local": 0.736,
-    "last_sold_date": "2026-05-11"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -309,7 +309,7 @@
     "stock": 0,
     "display_position": "front",
     "cvr_local": 0.662,
-    "last_sold_date": "2026-05-09"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -317,31 +317,31 @@
     "stock": 0,
     "display_position": "front",
     "cvr_local": 0.634,
-    "last_sold_date": "2026-05-08"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "LC-388",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.568,
-    "last_sold_date": "2026-05-07"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "LC-102",
-    "stock": 0,
+    "stock": 2,
     "display_position": "front",
     "cvr_local": 0.765,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-16"
   },
   {
     "store_id": "STR-002",
     "sku_id": "LC-450",
-    "stock": 0,
+    "stock": 1,
     "display_position": "front",
     "cvr_local": 0.562,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -349,23 +349,23 @@
     "stock": 0,
     "display_position": "standard",
     "cvr_local": 0.492,
-    "last_sold_date": "2026-05-09"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "DC-218",
-    "stock": 0,
+    "stock": 4,
     "display_position": "standard",
     "cvr_local": 0.654,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "DC-076",
-    "stock": 0,
+    "stock": 5,
     "display_position": "standard",
     "cvr_local": 0.731,
-    "last_sold_date": "2026-05-11"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -373,7 +373,7 @@
     "stock": 0,
     "display_position": "standard",
     "cvr_local": 0.531,
-    "last_sold_date": "2026-05-09"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -381,31 +381,31 @@
     "stock": 0,
     "display_position": "standard",
     "cvr_local": 0.476,
-    "last_sold_date": "2026-05-12"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "BT-201",
-    "stock": 0,
+    "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.654,
-    "last_sold_date": "2026-05-10"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "BT-055",
-    "stock": 0,
+    "stock": 7,
     "display_position": "standard",
     "cvr_local": 0.786,
-    "last_sold_date": "2026-05-13"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "BT-312",
-    "stock": 0,
+    "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.616,
-    "last_sold_date": "2026-05-11"
+    "last_sold_date": "2026-06-15"
   },
   {
     "store_id": "STR-002",
@@ -413,12 +413,12 @@
     "stock": 2,
     "display_position": "vault",
     "cvr_local": 0.277,
-    "last_sold_date": "2026-04-23"
+    "last_sold_date": "2026-05-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "DH-Tissot-T01",
-    "stock": 0,
+    "stock": 2,
     "display_position": "standard",
     "cvr_local": 0.313,
     "last_sold_date": "2026-05-13"
@@ -429,15 +429,15 @@
     "stock": 3,
     "display_position": "standard",
     "cvr_local": 0.395,
-    "last_sold_date": "2026-05-14"
+    "last_sold_date": "2026-05-15"
   },
   {
     "store_id": "STR-002",
     "sku_id": "PK-001",
-    "stock": 14,
+    "stock": 1,
     "display_position": "standard",
     "cvr_local": 0.84,
-    "last_sold_date": "2026-05-14"
+    "last_sold_date": "2026-06-16"
   },
   {
     "store_id": "STR-002",
