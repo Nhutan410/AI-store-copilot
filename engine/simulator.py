@@ -1,6 +1,6 @@
 """
 AI-powered daily data simulator.
-- Qwen tạo kịch bản ngày (thời tiết, sự kiện, anomaly).
+- OpenAI tạo kịch bản ngày (thời tiết, sự kiện, anomaly).
 - Python generate transactions + snapshot + roster theo kịch bản.
 - Hỗ trợ sinh dữ liệu từng ca (sáng/chiều/tối) dựa theo giờ thực tế.
 - Sử dụng lịch sử feedback của ca trước để điều chỉnh tham số ca tiếp theo.
@@ -8,12 +8,8 @@ AI-powered daily data simulator.
 import json
 import random
 import re
-import requests
 from datetime import date, datetime, timedelta
-from engine import db
-
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "qwen2.5:7b"
+from engine import db, llm
 
 CUSTOMER_TYPES = ["couple", "female_solo", "male_solo", "gift_buyer", "family"]
 
@@ -64,34 +60,21 @@ _ACTION_EFFECTS: dict = {
 }
 
 
-# ─── Qwen call ────────────────────────────────────────────────────────────────
+# ─── OpenAI call ──────────────────────────────────────────────────────────────
 
 _VI_ENFORCE = (
     "QUAN TRỌNG: Chỉ trả lời bằng tiếng Việt. Không dùng tiếng Trung hay ngôn ngữ khác.\n\n"
 )
 
-def _call_qwen(prompt: str, temperature: float = 0.7, timeout: int = 90) -> str:
-    payload = {
-        "model": MODEL,
-        "prompt": _VI_ENFORCE + prompt,
-        "stream": False,
-        "options": {"temperature": temperature, "num_predict": 512,
-                    "stop": ["<|im_end|>", "[/INST]"]},
-    }
-    try:
-        r = requests.post(OLLAMA_URL, json=payload, timeout=timeout)
-        r.raise_for_status()
-        return r.json().get("response", "").strip()
-    except Exception:
+def _call_openai_for_scenario(prompt: str, temperature: float = 0.7) -> str:
+    response = llm.generate_text(_VI_ENFORCE + prompt, temperature=temperature, max_tokens=512)
+    if response.startswith("⚠️"):
         return ""
+    return response
 
 
-def check_ollama() -> bool:
-    try:
-        r = requests.get("http://localhost:11434/api/tags", timeout=3)
-        return r.status_code == 200
-    except Exception:
-        return False
+def check_openai() -> bool:
+    return llm.is_openai_enabled()
 
 
 # ─── Shift status helper ──────────────────────────────────────────────────────
@@ -283,8 +266,8 @@ def _random_scenario(store: dict, sim_date: date) -> dict:
 def generate_scenario(store_id: str, sim_date: date,
                       adjustments: dict | None = None,
                       progress_cb=None) -> dict:
-    """Gọi Qwen để tạo kịch bản ngày. Fallback random nếu Qwen offline.
-    Nhận adjustments từ feedback ca trước để làm ngữ cảnh cho Qwen."""
+    """Gọi OpenAI để tạo kịch bản ngày. Fallback random nếu chưa có API key/lỗi API.
+    Nhận adjustments từ feedback ca trước để làm ngữ cảnh cho OpenAI."""
     store = db.get_store(store_id)
     if not store:
         return _random_scenario({"segment": "A"}, sim_date)
@@ -295,7 +278,7 @@ def generate_scenario(store_id: str, sim_date: date,
     dow_vn = ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm",
                "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"][sim_date.weekday()]
 
-    # Thêm context feedback vào prompt Qwen
+    # Thêm context feedback vào prompt OpenAI
     feedback_ctx = ""
     if adjustments and adjustments.get("applied_actions"):
         acts = ", ".join(adjustments["applied_actions"])
@@ -322,7 +305,7 @@ PROMO: [có|không]
 MO_TA: [2 câu tiếng Việt mô tả kịch bản ngày hôm đó]
 ---"""
 
-    raw = _call_qwen(prompt, temperature=0.75)
+    raw = _call_openai_for_scenario(prompt, temperature=0.75)
     if not raw:
         return _random_scenario(store, sim_date)
 
@@ -351,15 +334,27 @@ def _base_traffic(store: dict, sim_date: date) -> int:
     return max(8, int(base * mult))
 
 
-def _hourly_distribution(total: int, max_hour: int = 22) -> dict:
-    """Phân bổ traffic theo giờ. max_hour: chỉ generate đến giờ này (exclusive)."""
+def _hourly_distribution(total: int, max_hour: int = 22,
+                         current_minute: int = 0) -> dict:
+    """
+    Phân bổ traffic đến thời điểm max_hour:current_minute.
+
+    Các giờ trước max_hour được tính đầy đủ. Riêng max_hour chỉ được tính theo
+    tỷ lệ số phút đã trôi qua, nhờ đó 09:45 vẫn có dữ liệu của 45 phút đầu ngày.
+    """
     weights = {
         9: 0.06, 10: 0.08, 11: 0.09, 12: 0.07,
         13: 0.06, 14: 0.08, 15: 0.09, 16: 0.09,
         17: 0.12, 18: 0.13, 19: 0.10, 20: 0.02, 21: 0.01,
     }
-    # Chỉ lấy giờ hợp lệ (< max_hour)
-    valid_hours = {h: w for h, w in weights.items() if h < max_hour}
+    minute_fraction = max(0, min(current_minute, 59)) / 60
+    valid_hours = {}
+    for hour, weight in weights.items():
+        if hour < max_hour:
+            valid_hours[hour] = weight
+        elif hour == max_hour and minute_fraction > 0:
+            valid_hours[hour] = weight * minute_fraction
+
     if not valid_hours:
         return {}
 
@@ -480,6 +475,7 @@ def _pick_sku_sim(skus_inv: list, customer_type: str,
 def _gen_transactions_sim(store_id: str, store: dict, sim_date: date,
                            roster: dict, scenario: dict,
                            max_hour: int = 22,
+                           current_minute: int = 0,
                            adjustments: dict | None = None) -> tuple[list, int]:
     """
     Sinh transactions cho một ngày (hoặc một phần ngày đến max_hour).
@@ -501,8 +497,12 @@ def _gen_transactions_sim(store_id: str, store: dict, sim_date: date,
                              * traffic_boost
                              * random.uniform(0.92, 1.08)))
 
-    # Phân bổ traffic chỉ đến max_hour
-    hourly = _hourly_distribution(raw_traffic, max_hour=max_hour)
+    # Phân bổ traffic đến đúng giờ/phút hiện tại.
+    hourly = _hourly_distribution(
+        raw_traffic,
+        max_hour=max_hour,
+        current_minute=current_minute,
+    )
     actual_traffic = sum(hourly.values())
 
     ds = sim_date.isoformat()
@@ -580,7 +580,8 @@ def _gen_transactions_sim(store_id: str, store: dict, sim_date: date,
             # Upsell boost: nhẹ tăng actual price (giả lập khách nâng cấp)
             actual_price = round(base_price * random.uniform(0.97, 1.0 + (upsell_boost - 1) * 0.5) / 1000) * 1000
 
-            minute = random.randint(0, 59)
+            minute_limit = current_minute - 1 if hour == max_hour else 59
+            minute = random.randint(0, max(0, minute_limit))
             second = random.randint(0, 59)
             ts = f"{ds} {hour:02d}:{minute:02d}:{second:02d}"
 
@@ -689,11 +690,15 @@ def get_missing_dates(store_id: str) -> list[date]:
 
 def _clear_day_data(store_id: str, date_str: str):
     """Xóa transactions + snapshot cũ của một ngày trước khi regenerate."""
-    import json, os
-    from engine.db import DATA_DIR, _load, _save
+    from engine.db import _load, _save
 
     # Xóa transactions
     txns = _load("transactions.json", [])
+    removed_txns = [
+        t for t in txns
+        if t["store_id"] == store_id and t["date"] == date_str
+    ]
+    db.restore_inventory_before_regeneration(store_id, removed_txns)
     txns_new = [t for t in txns if not (t["store_id"] == store_id and t["date"] == date_str)]
     _save("transactions.json", txns_new)
 
@@ -740,6 +745,7 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
         if is_today:
             # Chỉ generate đến giờ hiện tại
             max_hour = now.hour
+            current_minute = now.minute
             shift_status = get_shift_status(now)
             is_partial = True
 
@@ -770,6 +776,7 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
         else:
             # Ngày quá khứ: generate cả ngày
             max_hour = 22
+            current_minute = 0
             is_partial = False
             adjustments = get_feedback_adjustments(store_id, for_date=ds, lookback_hours=48)
             if progress_cb:
@@ -777,6 +784,12 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
 
         # Xóa data cũ cho ngày này (để regenerate sạch)
         _clear_day_data(store_id, ds)
+
+        replenished = db.replenish_inventory_for_simulation(store_id)
+        if progress_cb and replenished:
+            progress_cb(
+                f"Đã nhập bù {replenished} SKU do tồn kho mô phỏng xuống quá thấp."
+            )
 
         if progress_cb:
             progress_cb("Đang tạo kịch bản ngày với AI...")
@@ -790,10 +803,14 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
 
         # 3. Sinh transactions (giới hạn đến max_hour, áp dụng adjustments)
         if progress_cb:
-            progress_cb(f"Đang tạo giao dịch đến giờ {max_hour:02d}:00...")
+            progress_cb(
+                f"Đang tạo giao dịch đến {max_hour:02d}:{current_minute:02d}..."
+            )
         txns, traffic = _gen_transactions_sim(
             store_id, store, sim_date, roster, scenario,
-            max_hour=max_hour, adjustments=adjustments
+            max_hour=max_hour,
+            current_minute=current_minute,
+            adjustments=adjustments,
         )
 
         # 4. Tính snapshot
@@ -828,6 +845,7 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
             "cr": round(snapshot["conversion_rate"] * 100, 1),
             "is_partial": is_partial,
             "max_hour": max_hour,
+            "current_minute": current_minute,
             "shift_info": shift_info,
             "feedback_applied": adjustments.get("applied_actions", []),
         })
@@ -835,7 +853,10 @@ def run_simulation(store_id: str, target_dates: list[date] | None = None,
         if progress_cb:
             rev_m = snapshot["revenue"] / 1e6
             pct = snapshot["target_pct"] * 100
-            partial_note = f" (đến {max_hour:02d}:00)" if is_partial else ""
+            partial_note = (
+                f" (đến {max_hour:02d}:{current_minute:02d})"
+                if is_partial else ""
+            )
             progress_cb(
                 f"✓ {ds}{partial_note}: {rev_m:.1f}M đ / {pct:.0f}% target "
                 f"/ {len(txns)} giao dịch"

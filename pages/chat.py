@@ -5,9 +5,8 @@ import streamlit as st
 from engine import db
 from engine import llm
 
-DATE = "2026-04-30"
-
 SUGGESTED_QUESTIONS = [
+    "Doanh thu hiện tại ngày hôm nay là bao nhiêu?",
     "Vì sao hôm qua nhẫn cưới bán chậm?",
     "Ca chiều hôm qua ổn không?",
     "Nhân viên nào hiệu quả nhất hôm qua?",
@@ -23,10 +22,11 @@ def render(store_id: str):
     st.markdown("## 💬 Chat Copilot")
     store = db.get_store(store_id)
     store_name = store["name"] if store else store_id
+    data_date = db.get_latest_data_date(store_id) or db.today_str()
 
     st.markdown(
         f"<div style='color:#8b92a5;font-size:0.88rem;margin-bottom:12px'>"
-        f"🏪 {store_name} &nbsp;|&nbsp; 📅 Dữ liệu ngày {DATE} &nbsp;|&nbsp; "
+        f"🏪 {store_name} &nbsp;|&nbsp; 📅 Dữ liệu mới nhất: {data_date} &nbsp;|&nbsp; "
         f"AI sẽ trả lời dựa trên số liệu thực tế của cửa hàng</div>",
         unsafe_allow_html=True
     )
@@ -76,7 +76,7 @@ def render(store_id: str):
     for i, q in enumerate(SUGGESTED_QUESTIONS):
         with cols[i % 2]:
             if st.button(q, key=f"suggest_{i}", use_container_width=True,
-                         disabled=not st.session_state.ollama_ok):
+                         disabled=not st.session_state.ai_ok):
                 _send_message(store_id, q, history)
                 st.rerun()
 
@@ -92,11 +92,11 @@ def render(store_id: str):
         )
     with col_send:
         send_clicked = st.button("Gửi ➤", key="btn_send",
-                                 disabled=not st.session_state.ollama_ok,
+                                 disabled=not st.session_state.ai_ok,
                                  use_container_width=True, type="primary")
 
-    if not st.session_state.ollama_ok:
-        st.warning("⚠️ Cần kết nối Ollama để chat. Chạy: `ollama serve`")
+    if not st.session_state.ai_ok:
+        st.warning("⚠️ Cần OpenAI API Key để chat. Nhập key ở sidebar hoặc cấu hình OPENAI_API_KEY.")
 
     if send_clicked and user_input.strip():
         _send_message(store_id, user_input.strip(), history)
@@ -114,5 +114,6 @@ def render(store_id: str):
 def _send_message(store_id: str, message: str, history: list):
     db.append_chat(store_id, "user", message)
     with st.spinner("AI đang trả lời..."):
-        response = llm.chat_with_copilot(store_id, DATE, message, history)
+        data_date = db.get_latest_data_date(store_id) or db.today_str()
+        response = llm.chat_with_copilot(store_id, data_date, message, history)
     db.append_chat(store_id, "assistant", response)

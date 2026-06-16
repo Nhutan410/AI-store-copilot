@@ -2,16 +2,21 @@
 AI Store Copilot — PNJ
 Entry point Streamlit. Sidebar navigation, store selector, session state.
 """
+import hmac
 import streamlit as st
 import sys
 import os
+from dotenv import load_dotenv
 
 # Đảm bảo import từ root
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+load_dotenv()
 
 from engine import db
-from engine.llm import check_ollama
 import engine.llm as _llm
+
+AUTH_USERNAME = os.getenv("AUTH_USERNAME", "").strip()
+AUTH_PASSWORD = os.getenv("AUTH_PASSWORD", "")
 
 st.set_page_config(
     page_title="AI Store Copilot — PNJ",
@@ -97,11 +102,11 @@ st.markdown("""
 
 def _init_state():
     defaults = {
+        "authenticated": False,
         "selected_store": "STR-002",
-        "ollama_ok": False,
-        "ollama_checked": False,
+        "ai_ok": False,
         "llm_cache": {},   # {cache_key: result}
-        "openai_api_key": "",
+        "openai_api_key": os.getenv("OPENAI_API_KEY", "").strip(),
     }
     for k, v in defaults.items():
         if k not in st.session_state:
@@ -110,29 +115,62 @@ def _init_state():
 
 _init_state()
 
-# ─── AI availability check ───────────────────────────────────────────────────
 
-# Kiểm tra Ollama một lần duy nhất per session
-if not st.session_state.ollama_checked:
-    _real_ok = check_ollama()
-    st.session_state.ollama_ok = _real_ok
-    st.session_state["ollama_real_ok"] = _real_ok
-    st.session_state.ollama_checked = True
-elif "ollama_real_ok" not in st.session_state:
-    st.session_state["ollama_real_ok"] = st.session_state.ollama_ok
+# ─── Login gate ───────────────────────────────────────────────────────────────
+
+def _check_login(username: str, password: str) -> bool:
+    return (
+        hmac.compare_digest(username.strip(), AUTH_USERNAME)
+        and hmac.compare_digest(password, AUTH_PASSWORD)
+    )
+
+
+def _render_login():
+    if not AUTH_USERNAME or not AUTH_PASSWORD:
+        st.error("Thiếu cấu hình đăng nhập. Vui lòng khai báo AUTH_USERNAME và AUTH_PASSWORD trong file .env.")
+        st.stop()
+
+    st.markdown(
+        """
+<div style="max-width:420px;margin:8vh auto 18px auto;text-align:center">
+  <div style="font-size:2.4rem;font-weight:800;color:#e8c84a;margin-bottom:6px">AI Store Copilot</div>
+  <div style="color:#8b92a5;font-size:0.95rem">Đăng nhập để tiếp tục</div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+
+    _, col, _ = st.columns([1, 1.15, 1])
+    with col:
+        with st.form("login_form", clear_on_submit=False):
+            username = st.text_input("Tên đăng nhập")
+            password = st.text_input("Mật khẩu", type="password")
+            submitted = st.form_submit_button("Đăng nhập", use_container_width=True, type="primary")
+
+        if submitted:
+            if _check_login(username, password):
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Tên đăng nhập hoặc mật khẩu không đúng.")
+
+
+if not st.session_state.authenticated:
+    _render_login()
+    st.stop()
+
+# ─── AI availability check ───────────────────────────────────────────────────
 
 # Sync OpenAI key từ session state vào module llm (chạy mỗi lần render)
 _llm.set_openai_key(st.session_state.openai_api_key)
 
-# ollama_ok = "có ít nhất một AI sẵn sàng" — các page dùng biến này để gate nút LLM
-# không cần sửa code trong từng page
-st.session_state.ollama_ok = bool(st.session_state.openai_api_key) or st.session_state["ollama_real_ok"]
+st.session_state.ai_ok = _llm.is_openai_enabled()
 
-# Chỉ hiện cảnh báo khi không có AI nào
-if not st.session_state.ollama_ok:
+# Chỉ hiện cảnh báo khi chưa có OpenAI key.
+if not st.session_state.ai_ok:
     st.warning(
-        "⚠️ **Chưa có AI nào được kết nối** — Nhập OpenAI API Key ở thanh bên trái, "
-        "hoặc chạy `ollama serve` với model `qwen2.5:7b`. "
+        "⚠️ **Chưa có OpenAI API Key** — cấu hình `OPENAI_API_KEY` trong file `.env` "
+        "hoặc biến môi trường trước khi chạy app. "
         "Toàn bộ dữ liệu và biểu đồ vẫn hoạt động bình thường.",
         icon="🤖"
     )
@@ -143,6 +181,11 @@ with st.sidebar:
     st.markdown("## 💎 AI Store Copilot")
     st.markdown("<div style='color:#8b92a5;font-size:0.8rem;margin-bottom:16px'>PNJ · Phiên bản POC</div>",
                 unsafe_allow_html=True)
+    if st.button("Đăng xuất", key="btn_logout", use_container_width=True):
+        st.session_state.authenticated = False
+        st.session_state.llm_cache = {}
+        st.rerun()
+    st.markdown("---")
 
     stores = db.get_stores()
     if not stores:
@@ -173,47 +216,13 @@ with st.sidebar:
 """, unsafe_allow_html=True)
 
     st.markdown("---")
-    st.markdown("<div class='section-header'>Cấu hình AI</div>", unsafe_allow_html=True)
-
-    openai_key_input = st.text_input(
-        "🔑 OpenAI API Key",
-        value=st.session_state.openai_api_key,
-        type="password",
-        placeholder="sk-... (để trống dùng AI local)",
-        help="Nhập key để dùng GPT-4o-mini (OpenAI). Để trống sẽ dùng Ollama qwen2.5:7b local.",
-    )
-    if openai_key_input != st.session_state.openai_api_key:
-        st.session_state.openai_api_key = openai_key_input
-        st.session_state.llm_cache = {}
-        _llm.set_openai_key(openai_key_input)
-        st.rerun()
-
-    if st.session_state.openai_api_key:
-        st.markdown(
-            "<div style='font-size:0.78rem;color:#4ecca3;margin-bottom:4px'>"
-            "🟢 OpenAI GPT-4o-mini đang hoạt động</div>",
-            unsafe_allow_html=True
-        )
-    elif st.session_state.get("ollama_real_ok", False):
-        st.markdown(
-            "<div style='font-size:0.78rem;color:#f7c948;margin-bottom:4px'>"
-            "🟡 Ollama qwen2.5:7b (local)</div>",
-            unsafe_allow_html=True
-        )
-    else:
-        st.markdown(
-            "<div style='font-size:0.78rem;color:#ff6b6b;margin-bottom:4px'>"
-            "🔴 Chưa có AI — nhập key hoặc chạy Ollama</div>",
-            unsafe_allow_html=True
-        )
-
-    st.markdown("---")
     st.markdown("<div class='section-header'>Điều hướng</div>", unsafe_allow_html=True)
 
     pages = {
         "🏠 Dashboard": "dashboard",
         "💬 Chat Copilot": "chat",
         "☀️ Họp Ca Sáng": "morning",
+        "📅 Trong hôm nay": "today",
         "⚡ Actions & Rules": "actions",
         "📊 Analytics 30 Ngày": "analytics",
         "🔔 Thông Báo": "notifications",
@@ -255,6 +264,9 @@ elif page == "chat":
     render(store_id)
 elif page == "morning":
     from pages.morning import render
+    render(store_id)
+elif page == "today":
+    from pages.today import render
     render(store_id)
 elif page == "actions":
     from pages.actions import render

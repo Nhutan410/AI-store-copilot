@@ -521,11 +521,11 @@ def render(store_id: str):
         col_gen, _ = st.columns([1, 3])
         with col_gen:
             if st.button("✍️ AI Soạn Brief", key="btn_gen_brief",
-                         disabled=not st.session_state.ollama_ok,
+                         disabled=not st.session_state.ai_ok,
                          type="primary", use_container_width=True):
                 with st.spinner("AI đang soạn brief họp ca sáng..."):
                     brief = llm.gen_morning_brief(store_id, DATE_YESTERDAY, DATE_TODAY)
                     st.session_state.llm_cache[cache_key] = brief
                     st.rerun()
-        if not st.session_state.ollama_ok:
-            st.caption("⚠️ Cần kết nối Ollama để soạn brief")
+        if not st.session_state.ai_ok:
+            st.caption("⚠️ Cần OpenAI API Key để soạn brief")

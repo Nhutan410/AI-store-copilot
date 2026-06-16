@@ -1,6 +1,8 @@
 """
 Trang 1 — Dashboard: tổng quan sức khỏe cửa hàng.
 """
+from datetime import date, timedelta
+
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
@@ -8,11 +10,28 @@ from engine import db, analytics
 from engine.rule_engine import evaluate_rules_for_store
 from engine import llm
 
-DATE = "2026-04-30"  # ngày demo — nhiều rules kích hoạt nhất (79% target, 6 rules)
+
+def _cache_key(key: str, store_id: str, date_str: str) -> str:
+    return f"{key}_{store_id}_{date_str}"
 
 
-def _cache_key(key: str, store_id: str) -> str:
-    return f"{key}_{store_id}"
+def _resolve_dashboard_dates(store_id: str) -> tuple[str, str, bool]:
+    """
+    Trả về (ngày báo cáo, ngày hiện tại theo dữ liệu, có đúng snapshot hôm qua).
+
+    Snapshot mới nhất được xem là dữ liệu của hôm nay. Dashboard ưu tiên ngày
+    liền trước để thống nhất với phần "Kết quả hôm qua" của Họp ca sáng.
+    """
+    latest = db.get_latest_data_date(store_id)
+    if not latest:
+        today = date.today()
+        return (today - timedelta(days=1)).isoformat(), today.isoformat(), False
+
+    latest_date = date.fromisoformat(latest)
+    previous = (latest_date - timedelta(days=1)).isoformat()
+    if db.get_snapshot(store_id, previous):
+        return previous, latest, True
+    return latest, latest, False
 
 
 def render(store_id: str):
@@ -22,15 +41,21 @@ def render(store_id: str):
         st.error("Không tìm thấy cửa hàng.")
         return
 
-    snap = db.get_snapshot(store_id, DATE)
+    report_date, data_today, is_yesterday = _resolve_dashboard_dates(store_id)
+    snap = db.get_snapshot(store_id, report_date)
     if not snap:
         st.warning("Chưa có dữ liệu. Chạy `python data/seed_data.py` để khởi tạo.")
         return
 
-    health = analytics.calc_health_score(store_id, DATE)
-    cmp = analytics.compare_to_baseline(store_id, DATE)
-    signals = evaluate_rules_for_store(store_id, DATE)
-    pred_rev = analytics.predict_eod_revenue(store_id, snap["revenue"], 16)
+    period_label = "Hôm qua" if is_yesterday else "Ngày dữ liệu mới nhất"
+    st.caption(
+        f"Kết quả {period_label.lower()}: {report_date} · "
+        f"Ngày hiện tại theo dữ liệu: {data_today}"
+    )
+
+    health = analytics.calc_health_score(store_id, report_date)
+    cmp = analytics.compare_to_baseline(store_id, report_date)
+    signals = evaluate_rules_for_store(store_id, report_date)
 
     # ─── Row 1: KPI Cards ─────────────────────────────────────────────────
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -57,7 +82,7 @@ def render(store_id: str):
         color = "#4ecca3" if target_pct >= 95 else "#e8c84a" if target_pct >= 80 else "#ff6b6b"
         st.markdown(f"""
 <div class="metric-card">
-<div class="metric-label">% Target Hôm Qua</div>
+<div class="metric-label">% Target {period_label}</div>
 <div class="metric-value" style="color:{color}">{target_pct:.1f}%</div>
 <div style="font-size:0.82rem;color:#8b92a5">{snap['revenue']/1e6:.1f}M / {store['daily_target']/1e6:.0f}M đ</div>
 </div>""", unsafe_allow_html=True)
@@ -161,8 +186,11 @@ Actions: {', '.join(sig['actions'][:2])}{'...' if len(sig['actions']) > 2 else '
     col_chart, col_cat = st.columns([3, 2])
 
     with col_chart:
-        st.markdown("#### 📈 Doanh Thu 7 Ngày Gần Nhất")
-        trend = analytics.get_revenue_trend(store_id, 7)
+        st.markdown(f"#### 📈 Doanh Thu 7 Ngày Đến {report_date}")
+        trend = [
+            item for item in analytics.get_revenue_trend(store_id, 30)
+            if item["date"] <= report_date
+        ][-7:]
         if trend:
             fig = go.Figure()
             fig.add_trace(go.Bar(
@@ -235,63 +263,68 @@ Actions: {', '.join(sig['actions'][:2])}{'...' if len(sig['actions']) > 2 else '
 
     with col_ai1:
         st.markdown("#### 🤖 Báo Cáo Sức Khỏe AI")
-        cache_key = _cache_key("health_report", store_id)
+        cache_key = _cache_key("health_report", store_id, report_date)
         if cache_key in st.session_state.llm_cache:
             st.markdown(st.session_state.llm_cache[cache_key])
         else:
             if st.button("📝 Tạo Báo Cáo AI", key="btn_health_report",
-                         disabled=not st.session_state.ollama_ok, use_container_width=True):
+                         disabled=not st.session_state.ai_ok, use_container_width=True):
                 with st.spinner("AI đang phân tích dữ liệu..."):
-                    result = llm.gen_health_report(store_id, DATE)
+                    result = llm.gen_health_report(store_id, report_date)
                     st.session_state.llm_cache[cache_key] = result
                     st.rerun()
-            if not st.session_state.ollama_ok:
-                st.caption("⚠️ Cần kết nối Ollama để dùng tính năng này")
+            if not st.session_state.ai_ok:
+                st.caption("⚠️ Cần OpenAI API Key để dùng tính năng này")
 
     with col_ai2:
         st.markdown("#### 🔍 Phân Tích Nguyên Nhân AI")
-        cache_key2 = _cache_key("root_cause", store_id)
+        cache_key2 = _cache_key("root_cause", store_id, report_date)
         if cache_key2 in st.session_state.llm_cache:
             st.markdown(st.session_state.llm_cache[cache_key2])
         else:
             if st.button("🔎 Tạo Phân Tích Nguyên Nhân", key="btn_root_cause",
-                         disabled=not st.session_state.ollama_ok, use_container_width=True):
+                         disabled=not st.session_state.ai_ok, use_container_width=True):
                 with st.spinner("AI đang phân tích nguyên nhân..."):
-                    result = llm.gen_root_cause_analysis(store_id, DATE)
+                    result = llm.gen_root_cause_analysis(store_id, report_date)
                     st.session_state.llm_cache[cache_key2] = result
                     st.rerun()
-            if not st.session_state.ollama_ok:
-                st.caption("⚠️ Cần kết nối Ollama để dùng tính năng này")
+            if not st.session_state.ai_ok:
+                st.caption("⚠️ Cần OpenAI API Key để dùng tính năng này")
 
     # Xóa cache
     if any(k in st.session_state.llm_cache for k in [
-        _cache_key("health_report", store_id), _cache_key("root_cause", store_id)
+        _cache_key("health_report", store_id, report_date),
+        _cache_key("root_cause", store_id, report_date),
     ]):
         if st.button("🔄 Làm mới phân tích", key="btn_refresh_ai"):
-            for k in [_cache_key("health_report", store_id), _cache_key("root_cause", store_id)]:
+            for k in [
+                _cache_key("health_report", store_id, report_date),
+                _cache_key("root_cause", store_id, report_date),
+            ]:
                 st.session_state.llm_cache.pop(k, None)
             st.rerun()
 
-    # ─── Row 5: Predictive + Staff ────────────────────────────────────────
+    # ─── Row 5: Target result + Staff ─────────────────────────────────────
     st.markdown("---")
     col_pred, col_staff = st.columns(2)
 
     with col_pred:
-        st.markdown("#### 🔮 Dự Báo Doanh Thu")
+        target_gap = snap["revenue"] - store["daily_target"]
+        st.markdown(f"#### 🎯 Kết Quả Target {period_label}")
         st.markdown(f"""
 <div style="background:#1e2130;border-radius:8px;padding:14px 16px">
-<div style="color:#8b92a5;font-size:0.82rem">Dự báo cuối ngày (nếu pace hiện tại duy trì)</div>
-<div style="font-size:2rem;font-weight:700;color:#e8c84a">{pred_rev/1e6:.1f}M đ</div>
+<div style="color:#8b92a5;font-size:0.82rem">Doanh thu thực tế ngày {report_date}</div>
+<div style="font-size:2rem;font-weight:700;color:#e8c84a">{snap['revenue']/1e6:.1f}M đ</div>
 <div style="font-size:0.85rem;color:#8b92a5">
 Target: {store['daily_target']/1e6:.0f}M đ &nbsp;|&nbsp;
-Gap: <span style="color:{'#4ecca3' if pred_rev >= store['daily_target'] else '#ff6b6b'}">
-{(pred_rev - store['daily_target'])/1e6:+.1f}M đ
+Gap: <span style="color:{'#4ecca3' if target_gap >= 0 else '#ff6b6b'}">
+{target_gap/1e6:+.1f}M đ
 </span>
 </div>
 </div>""", unsafe_allow_html=True)
 
         # Staff heatmap — efficiency matrix
-        st.markdown("**Hiệu suất nhân viên hôm qua**")
+        st.markdown(f"**Hiệu suất nhân viên {period_label.lower()}**")
         perf = snap.get("staff_performance", {})
         staff_map = {nv["id"]: nv for nv in db.get_staff(store_id)}
         if perf:
@@ -310,8 +343,8 @@ Gap: <span style="color:{'#4ecca3' if pred_rev >= store['daily_target'] else '#f
                          height=min(200, len(rows) * 35 + 40))
 
     with col_staff:
-        st.markdown("#### 👥 Đội Hình Hôm Nay (2026-05-05)")
-        roster_today = db.get_roster(store_id, "2026-05-05")
+        st.markdown(f"#### 👥 Đội Hình Hôm Nay ({data_today})")
+        roster_today = db.get_roster(store_id, data_today)
         staff_map_all = {nv["id"]: nv for nv in db.get_staff(store_id)}
 
         if roster_today:

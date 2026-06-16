@@ -1,5 +1,5 @@
 """
-Trang Mô Phỏng Dữ Liệu — tạo dữ liệu ngày thực tế bằng AI (Qwen).
+Trang Mô Phỏng Dữ Liệu — tạo dữ liệu ngày thực tế bằng OpenAI.
 Hỗ trợ sinh dữ liệu từng ca theo giờ thực tế và phản ánh feedback.
 """
 import streamlit as st
@@ -30,7 +30,7 @@ def render(store_id: str):
     today = date.today()
     latest = db.get_latest_data_date(store_id)
     missing_dates = simulator.get_missing_dates(store_id)
-    ollama_ok = simulator.check_ollama()
+    openai_ok = simulator.check_openai()
 
     # ─── Trạng thái hiện tại ──────────────────────────────────────────────────
     col_info, col_action = st.columns([3, 2])
@@ -78,8 +78,8 @@ def render(store_id: str):
     with col_action:
         st.markdown("### 🤖 Tạo dữ liệu mới")
 
-        if not ollama_ok:
-            st.warning("⚠️ Ollama offline — sẽ dùng kịch bản ngẫu nhiên thay thế AI.")
+        if not openai_ok:
+            st.warning("⚠️ Chưa có OpenAI API Key — sẽ dùng kịch bản ngẫu nhiên thay thế AI.")
 
         # Hiển thị trạng thái ca hôm nay
         now = datetime.now()
@@ -131,7 +131,7 @@ def render(store_id: str):
                 st.rerun()
 
         st.caption(
-            "AI (Qwen) tạo kịch bản theo giờ thực tế. Hôm nay chỉ generate đến "
+            "OpenAI tạo kịch bản theo giờ thực tế. Hôm nay chỉ generate đến "
             f"{now.hour:02d}:{now.minute:02d}. Feedback ca trước tự động điều chỉnh tham số."
         )
 
@@ -195,7 +195,12 @@ def render(store_id: str):
             staff_txt = f"⚠️ {scen['staff_issue']}" if scen.get("staff_issue") else ""
             hot_txt = f"🔥 Hot: {scen['hot_category']} ×{scen['hot_category_mult']}" if scen.get("hot_category") else ""
             promo_txt = "🎁 Khuyến mãi đang chạy" if scen.get("promo_active") else ""
-            partial_txt = f"🕐 Đến {sc['max_hour']:02d}:00 (đang diễn ra)" if sc.get("is_partial") else ""
+            partial_txt = (
+                f"🕐 Đến {sc['max_hour']:02d}:{sc.get('current_minute', 0):02d} "
+                "(đang diễn ra)"
+                if sc.get("is_partial")
+                else ""
+            )
             feedback_acts = sc.get("feedback_applied", [])
             feedback_txt = f"💡 Áp dụng từ ca trước: {', '.join(feedback_acts)}" if feedback_acts else ""
 
@@ -282,62 +287,3 @@ def render(store_id: str):
             st.session_state["current_page"] = "dashboard"
             st.session_state.pop("sim_result", None)
             st.rerun()
-
-    # ─── Hướng dẫn và thông tin inventory ────────────────────────────────────
-    with st.expander("📦 Trạng thái tồn kho hiện tại (per-store)"):
-        skus_inv = db.get_skus_with_inventory(store_id)
-        if skus_inv:
-            # Group by category
-            from collections import defaultdict
-            by_cat: dict = defaultdict(list)
-            for s in skus_inv:
-                by_cat[s["category"]].append(s)
-
-            cat_labels = {
-                "wedding_ring": "💍 Nhẫn cưới",
-                "engagement_ring": "💎 Nhẫn đính hôn",
-                "fashion_ring": "💫 Nhẫn thời trang",
-                "bracelet": "📿 Lắc tay",
-                "necklace": "🔗 Dây chuyền",
-                "earring": "✨ Bông tai",
-                "watch": "⌚ Đồng hồ",
-                "accessory": "🎁 Phụ kiện",
-            }
-
-            for cat, items in sorted(by_cat.items()):
-                st.markdown(f"**{cat_labels.get(cat, cat)}**")
-                rows = []
-                for s in items:
-                    stock = s.get("stock", 0)
-                    stock_color = "#ff6b6b" if stock <= 2 else "#e8c84a" if stock <= 5 else "#4ecca3"
-                    pos = s.get("display_position", "standard")
-                    pos_label = {"front": "🟢 Trước", "standard": "⚪ Tiêu chuẩn", "vault": "🔒 Kho"}.get(pos, pos)
-                    cvr_local = s.get("cvr_local", s.get("cvr_history", 0))
-                    last_sold = s.get("last_sold_date", "N/A")
-                    rows.append(
-                        f"<tr>"
-                        f"<td style='padding:4px 10px;color:#e2e8f0'>{s['id']}</td>"
-                        f"<td style='padding:4px 10px;color:#8b92a5;font-size:0.85rem'>{s['name'][:30]}</td>"
-                        f"<td style='padding:4px 10px;text-align:center;"
-                        f"color:{stock_color};font-weight:700'>{stock}</td>"
-                        f"<td style='padding:4px 10px;text-align:center;color:#8b92a5;font-size:0.82rem'>{pos_label}</td>"
-                        f"<td style='padding:4px 10px;text-align:center;color:#b0b7c3;font-size:0.82rem'>{cvr_local*100:.0f}%</td>"
-                        f"<td style='padding:4px 10px;text-align:center;color:#8b92a5;font-size:0.78rem'>{last_sold}</td>"
-                        f"</tr>"
-                    )
-                st.markdown(
-                    "<table style='width:100%;border-collapse:collapse;background:#1e2130;"
-                    "border-radius:6px;overflow:hidden'>"
-                    "<tr style='background:#252836'>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem;text-align:left'>ID</th>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem;text-align:left'>Tên</th>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem'>Tồn</th>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem'>Vị trí</th>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem'>CVR Local</th>"
-                    "<th style='padding:5px 10px;color:#8b92a5;font-size:0.75rem'>Bán gần nhất</th>"
-                    "</tr>"
-                    + "".join(rows)
-                    + "</table>",
-                    unsafe_allow_html=True
-                )
-                st.markdown("")

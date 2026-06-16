@@ -1,14 +1,15 @@
 """
 LLM client + prompt templates cho AI Store Copilot.
-Hỗ trợ: OpenAI gpt-4o-mini (ưu tiên nếu có API key) hoặc Ollama qwen2.5:7b (local fallback).
+Hỗ trợ OpenAI API cho toàn bộ tính năng AI của app.
 """
 import json
-import requests
+import os
+import unicodedata
+from datetime import date, timedelta
+
 from engine import db, analytics
 from engine.rule_engine import evaluate_rules_for_store
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "qwen2.5:7b"
 OPENAI_MODEL = "gpt-4o-mini"
 
 _VI_ENFORCE = (
@@ -17,8 +18,8 @@ _VI_ENFORCE = (
 )
 _VI_REMIND = "\n\n(Nhắc nhở: Chỉ dùng tiếng Việt trong toàn bộ câu trả lời.)"
 
-# Module-level OpenAI key — được set từ app.py mỗi lần render
-_openai_api_key: str = ""
+# Module-level OpenAI key — lấy từ env hoặc được set từ app.py mỗi lần render.
+_openai_api_key: str = os.getenv("OPENAI_API_KEY", "").strip()
 
 
 def set_openai_key(key: str) -> None:
@@ -30,16 +31,6 @@ def set_openai_key(key: str) -> None:
 def is_openai_enabled() -> bool:
     """Trả về True nếu OpenAI API key đã được nhập."""
     return bool(_openai_api_key)
-
-
-# ─── Health checks ───────────────────────────────────────────────────────────
-
-def check_ollama() -> bool:
-    try:
-        r = requests.get("http://localhost:11434/api/tags", timeout=3)
-        return r.status_code == 200
-    except Exception:
-        return False
 
 
 def check_openai() -> bool:
@@ -55,33 +46,10 @@ def check_openai() -> bool:
         return False
 
 
-# ─── LLM callers ─────────────────────────────────────────────────────────────
-
-def _call_ollama(prompt: str, temperature: float = 0.25,
-                 max_tokens: int = 1024) -> str:
-    full_prompt = _VI_ENFORCE + prompt + _VI_REMIND
-    payload = {
-        "model": OLLAMA_MODEL,
-        "prompt": full_prompt,
-        "stream": False,
-        "options": {
-            "temperature": temperature,
-            "num_predict": max_tokens,
-            "stop": ["<|im_end|>", "[/INST]"],
-        }
-    }
-    try:
-        r = requests.post(OLLAMA_URL, json=payload, timeout=120)
-        r.raise_for_status()
-        return r.json().get("response", "").strip()
-    except requests.exceptions.ConnectionError:
-        return "⚠️ Không kết nối được Ollama. Vui lòng kiểm tra Ollama đang chạy tại localhost:11434."
-    except Exception as e:
-        return f"⚠️ Lỗi khi gọi AI: {str(e)}"
-
-
 def _call_openai(prompt: str, temperature: float = 0.25,
                  max_tokens: int = 1024) -> str:
+    if not _openai_api_key:
+        return "⚠️ Chưa có OpenAI API key. Vui lòng nhập key ở sidebar hoặc cấu hình biến môi trường OPENAI_API_KEY."
     try:
         import openai
         client = openai.OpenAI(api_key=_openai_api_key)
@@ -101,12 +69,16 @@ def _call_openai(prompt: str, temperature: float = 0.25,
         return f"⚠️ Lỗi OpenAI: {str(e)}"
 
 
+def generate_text(prompt: str, temperature: float = 0.25,
+                  max_tokens: int = 1024) -> str:
+    """Sinh text bằng OpenAI API."""
+    return _call_openai(prompt, temperature, max_tokens)
+
+
 def _call_llm(prompt: str, temperature: float = 0.25,
               max_tokens: int = 1024) -> str:
-    """Router: dùng OpenAI nếu có key, ngược lại dùng Ollama local."""
-    if _openai_api_key:
-        return _call_openai(prompt, temperature, max_tokens)
-    return _call_ollama(prompt, temperature, max_tokens)
+    """Router OpenAI-only cho các prompt của app."""
+    return _call_openai(prompt, temperature, max_tokens)
 
 
 # ─── Context builder ─────────────────────────────────────────────────────────
@@ -429,9 +401,46 @@ FORMAT:
 
 def chat_with_copilot(store_id: str, date_str: str,
                       user_message: str, history: list) -> str:
-    ctx = _build_store_context(store_id, date_str)
+    # Luôn ưu tiên snapshot mới nhất để caller cũ không thể giữ ngày demo stale.
+    current_date = db.get_latest_data_date(store_id) or date_str
+    current_snap = db.get_snapshot(store_id, current_date)
+
+    normalized = unicodedata.normalize("NFD", user_message.lower())
+    normalized = "".join(
+        char for char in normalized
+        if unicodedata.category(char) != "Mn"
+    )
+    asks_current_revenue = (
+        "doanh thu" in normalized
+        and any(term in normalized for term in ("hien tai", "hom nay"))
+        and any(term in normalized for term in ("bao nhieu", "duoc bao nhieu"))
+    )
+    if asks_current_revenue:
+        if not current_snap:
+            return f"Chưa có dữ liệu doanh thu cho ngày {current_date}."
+        revenue = current_snap.get("revenue", 0)
+        target_pct = current_snap.get("target_pct", 0) * 100
+        transaction_count = current_snap.get("num_transactions", 0)
+        revenue_vnd = f"{revenue:,.0f}".replace(",", ".")
+        revenue_million = f"{revenue / 1e6:.2f}".replace(".", ",")
+        target_pct_text = f"{target_pct:.1f}".replace(".", ",")
+        return (
+            f"Tính đến dữ liệu mới nhất ngày {current_date}, doanh thu hiện tại là "
+            f"**{revenue_vnd} đồng** ({revenue_million} triệu đồng), "
+            f"đạt **{target_pct_text}% target**, với {transaction_count} giao dịch."
+        )
+
+    ctx = _build_store_context(store_id, current_date)
     store = db.get_store(store_id)
     store_name = store["name"] if store else store_id
+
+    previous_date = (date.fromisoformat(current_date) - timedelta(days=1)).isoformat()
+    previous_ctx = ""
+    if db.get_snapshot(store_id, previous_date):
+        previous_ctx = (
+            f"\nDỮ LIỆU HÔM QUA ({previous_date}):\n"
+            f"{_build_store_context(store_id, previous_date)}\n"
+        )
 
     # Build conversation history
     hist_txt = ""
@@ -440,16 +449,23 @@ def chat_with_copilot(store_id: str, date_str: str,
         hist_txt += f"{role}: {msg['content']}\n"
 
     prompt = f"""Bạn là AI Store Copilot của PNJ — trợ lý thông minh cho Cửa hàng trưởng {store_name}.
-Ngày hôm nay: {date_str}
+Ngày dữ liệu hiện tại: {current_date}
 
-DỮ LIỆU THỰC TẾ CỬA HÀNG:
+DỮ LIỆU HÔM NAY ({current_date}):
 {ctx}
+{previous_ctx}
 
 LỊCH SỬ CUỘC HỘI THOẠI:
 {hist_txt}
 
 CHT: {user_message}
-AI:"""
+AI:
+
+Quy tắc trả lời:
+- "Hôm nay" hoặc "hiện tại" phải dùng dữ liệu ngày {current_date}.
+- "Hôm qua" phải dùng dữ liệu ngày {previous_date}, nếu có.
+- Nêu rõ ngày của số liệu trong câu trả lời.
+- Không dùng số liệu cũ trong lịch sử chat để thay thế dữ liệu thực tế ở trên."""
 
     response = _call_llm(prompt, temperature=0.35, max_tokens=512)
     return response

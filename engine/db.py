@@ -114,6 +114,82 @@ def bulk_update_inventory_after_sales(store_id: str, txns: list):
     _save("store_inventory.json", inv)
 
 
+def restore_inventory_before_regeneration(store_id: str, txns: list):
+    """Hoàn lại tồn của các giao dịch sắp bị xóa khi regenerate cùng ngày."""
+    from collections import Counter
+
+    sold_counts = Counter(
+        t["sku_id"] for t in txns
+        if t.get("store_id") == store_id
+    )
+    if not sold_counts:
+        return
+
+    inv = _load("store_inventory.json", [])
+    for rec in inv:
+        if rec["store_id"] != store_id or rec["stock"] == 9999:
+            continue
+        count = sold_counts.get(rec["sku_id"], 0)
+        if count > 0:
+            rec["stock"] += count
+    _save("store_inventory.json", inv)
+
+
+def replenish_inventory_for_simulation(store_id: str,
+                                       minimum_available_ratio: float = 0.6) -> int:
+    """
+    Nhập bù khi kho mô phỏng đã cạn quá mức.
+
+    Chỉ kích hoạt khi số SKU hữu hạn còn hàng thấp hơn tỷ lệ tối thiểu. Mức nhập
+    bù nhỏ hơn tồn kho seed ban đầu để giữ ý nghĩa của cảnh báo tồn kho.
+    """
+    store = get_store(store_id)
+    if not store:
+        return 0
+
+    segment = store.get("segment", "A")
+    catalog = {
+        sku["id"]: sku
+        for sku in _load("skus.json", [])
+        if segment in sku.get("segments", [])
+    }
+    inv = _load("store_inventory.json", [])
+    store_rows = [
+        rec for rec in inv
+        if rec["store_id"] == store_id
+        and rec["sku_id"] in catalog
+        and rec["stock"] != 9999
+    ]
+    if not store_rows:
+        return 0
+
+    available_count = sum(rec.get("stock", 0) > 0 for rec in store_rows)
+    if available_count / len(store_rows) >= minimum_available_ratio:
+        return 0
+
+    replenished = 0
+    for rec in store_rows:
+        if rec.get("stock", 0) > 0:
+            continue
+
+        price = catalog[rec["sku_id"]].get("price", 0)
+        if price >= 10_000_000:
+            restock_level = 2
+        elif price >= 5_000_000:
+            restock_level = 3
+        elif price >= 2_000_000:
+            restock_level = 5
+        else:
+            restock_level = 8
+
+        rec["stock"] = restock_level
+        replenished += 1
+
+    if replenished:
+        _save("store_inventory.json", inv)
+    return replenished
+
+
 def get_rules() -> list:
     return _load("rules.json", [])
 

@@ -28,7 +28,7 @@ def render(store_id: str):
                 if st.button(
                     f"{icon} Thông báo {time_label}",
                     key=f"gen_notif_{notif_type}",
-                    disabled=not st.session_state.ollama_ok,
+                    disabled=not st.session_state.ai_ok,
                     use_container_width=True
                 ):
                     with st.spinner(f"AI đang tạo thông báo {time_label}..."):
@@ -41,8 +41,8 @@ def render(store_id: str):
                     st.success(f"✅ Đã tạo thông báo {time_label}!")
                     st.rerun()
 
-            if not st.session_state.ollama_ok:
-                st.caption("⚠️ Cần kết nối Ollama")
+            if not st.session_state.ai_ok:
+                st.caption("⚠️ Cần OpenAI API Key")
 
             st.markdown("---")
             if st.button("📌 Tạo thông báo mẫu không cần AI", key="gen_demo_notifs",
